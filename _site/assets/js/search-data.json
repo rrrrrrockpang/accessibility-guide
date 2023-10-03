@@ -1,0 +1,310 @@
+{"0": {
+    "doc": "Automatic Alt Text Generation",
+    "title": "Automatic Alt Text Generation",
+    "content": "In the last section, you perhaps observed there is a Generate alt text for me button. You should always be careful when using this function. In most cases, at least currently, we do NOT recommend only using this function wihout careful review. It is often incorrect or incomplete. Regardless, we will show you how to use this function and how to review the generated alt text. 1. Click the Generate alt text for me button. View Alt Text … → Go to the Alt Text panel → Generate alt text for me . 2. Review the generated alt text. Note that the quality of Automatic Alt Text is not guaranteed, so please don’t just click that button and call it a day. If I generate the alt text automatically for the plot, it’ll just show a “Diagram”, which is not informative at all. 3. Language models and alt text generation . We recommend not using tools like GPT4 to generate alt-text. These models often produce very verbose text descriptions, and may get numerical values incorrect. We highly recommend taking a very close look, and manually verifying the alt-text if a generative AI program is used to generate them. ",
+    "url": "/docs/PowerPoint/add-alt-text/02-automatic-alt-text-generation/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/02-automatic-alt-text-generation/"
+  },"1": {
+    "doc": "Mark Image as Decorative",
+    "title": "Mark Image as Decorative",
+    "content": "Decorative images are images that do not convey any information. For example, a background image that is purely decorative. In this case, you can mark the image as decorative so that screen readers will skip it. Otherwise, the screenreader will focus on and read out the element, confusing the screenreader users. This is especially problematic when the slides contain many of these elements. 1. How to mark an image as decorative? . View Alt Text … → Go to the Alt Text panel → Mark as decorative . In the example above, the Pinterest logo above doesn’t convey important information, so let’s mark it decorative. 2. Footers are easily overlooked. In the example above, we also is the template footer which specifies the date, instructor, course title, and URL. They are not necessary information, so mark them as decorative after the first slide as well. Otherwise, they will waste time. ",
+    "url": "/docs/PowerPoint/add-alt-text/03-decorative/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/03-decorative/"
+  },"2": {
+    "doc": "Group Images on PowerPoint",
+    "title": "Group Images on PowerPoint",
+    "content": "For complex diagrams that have many sub-images, if you don’t group the pictures, the screen reader users will likely (and unnecessarily) be overwhelmed and confused. This page includes two approaches to group images on PowerPoint. | Why do we need to group images? | Approach 1: Group the images on PowerPoint | Approach 2: Save as Picture | . ",
+    "url": "/docs/PowerPoint/add-alt-text/04-group-image/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/04-group-image/"
+  },"3": {
+    "doc": "Group Images on PowerPoint",
+    "title": "Why do we need to group images?",
+    "content": "Let’s walk through the example below about Singular Value Decomposition (SVD). As you can see it’s an SVD equation $A = U \\Sigma V^T$, but there are just so many unorganized pointers such as $m$ rows, $n$ columns, approximation sign ($\\approx$), $r$ columns/rows, etc. You can also see the messiness on the Selection Pane. (Please look at the reading order section, it is important!). Now, there are two ways to resolve this issue. ",
+    "url": "/docs/PowerPoint/add-alt-text/04-group-image/#why-do-we-need-to-group-images",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/04-group-image/#why-do-we-need-to-group-images"
+  },"4": {
+    "doc": "Group Images on PowerPoint",
+    "title": "Approach 1: Group the images on PowerPoint.",
+    "content": "1. Select each of the pictures you want to group. Right-click on the selected images/texts, etc → View Alt Text … → Mark as decorative. Doing so will make the screen reader skip focusing on the individual images, and just focus on the group. We do this because we don’t want the screen reader to go to the individual components again. We just want to read the grouped component as a whole. 2. Group the components. Right-click on the selected images/texts, etc → Group → Group. Yes, “Group” under “Group”. 3. Add alt text to the group. At this step, all the components should be in a group. You need to add alt text to the group. ",
+    "url": "/docs/PowerPoint/add-alt-text/04-group-image/#approach-1-group-the-images-on-powerpoint",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/04-group-image/#approach-1-group-the-images-on-powerpoint"
+  },"5": {
+    "doc": "Group Images on PowerPoint",
+    "title": "Approach 2: Save as Picture",
+    "content": "1. Select the components and save as picture . Select the pictures you want to group → Save as Picture … . 2. Drag the saved picture from your folder to this slide. If you want the saved picture to go back to where it was, don’t delete the original components yet. You can overlay the saved picture with the original components. When they overlap, cut the saved picture → select the original components → delete → paste the saved picture. You are all set now. 3. Add alt text to the picture. You can just add alt text to the new component as an image! . ",
+    "url": "/docs/PowerPoint/add-alt-text/04-group-image/#approach-2-save-as-picture",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/04-group-image/#approach-2-save-as-picture"
+  },"6": {
+    "doc": "Make Animation Accessible",
+    "title": "Make Animation Accessible",
+    "content": "It is common to have animation on your slides, but screenreader users rely on the correct reading order and detailed alt text. In the example below, the slide sequentially displays the formulas for ‘Jaccard Similarity Metric’, ‘Cosine Similarity Metric’, and ‘Pearson Correlation Coefficient’. With each animation, the corresponding examples (i.e., $r_x$, $r_y$) are revealed in green text on the right-hand side of the slide. 1. Check the reading order. Make sure that the reading order follows the animation order: the first element in the reading order should be the first element animated. Below shows the animation order in the Animation Pane. 2. Avoid adding animation inside of one single text box. Don’t add animation inside of one single text box. For example, don’t lump all three similarity metrics into one giant text box and add animation inside. Instead, create three text boxes, each of which represents one metric. This makes it easier to adjust the reading order. ",
+    "url": "/docs/PowerPoint/add-alt-text/05-animation/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/05-animation/"
+  },"7": {
+    "doc": "Instructions and Loggings",
+    "title": "Instructions and Loggings",
+    "content": "This section will show you how to add instructions and loggings to your computational notebooks. 1. Add Instructions. When we create many Python scripts, the data folder, and the log folder, we add more complexity to the folder structure. Have a .md file that tells students what these scripts are doing as well as clear expectations (i.e., the Colab coding questions) of the activity. You can find the question.md file in my GitHub screenshot. We usually have the students submit the homework Colab assignment on canvas or Gradescope. It is much easier for BVI students to submit their answers on the .md file, instead of having to navigate multiple web platforms. 2. Add Loggings. We also recommend adding loggings to your computational notebooks and the Python scripts. This will be helpful for students to debug their code. When you have a print statement, you should also log these statements to a log folder. This is important for students with visual impairment to debug their code. When you print a lot of statements in the terminal, you cannot easily scroll up or copy-and-paste the terminal output for screen reader users. To log your output, please use the logging package and refer to this blog post. 3. Below is an example of logging in Python. Note that we use logger.info to log the output. We include clear documentation of the question, housekeeping information, and step 1. The output is logged to ./log/section_1.log. We also include an estimated running time for the key step. This is important for students with visual impairment to understand how long it takes to run the code, or they simply run into glitch in the server. # Question 1: How many titles of each type are in the IMDB dataset? # Keywords: Dataframe API, SQL, group by, sort # check ./log/section_1.log for the output # Load libraries import pyspark, logging from pyspark.sql import * from pyspark.sql.functions import * ## Housekeeping: setup code to read intermediate datasets def script_filter(record): if record.name != __name__: return False return True handler = logging.StreamHandler() handler.filters = [script_filter] logger = logging.getLogger(__name__) logger.addHandler(handler) fh = logging.FileHandler('./log/section_1.log', \"w+\") # write to file logger.setLevel(logging.INFO) logger.addHandler(fh) # Create a SparkSession spark = SparkSession.builder.config(\"spark.driver.memory\", \"4g\").getOrCreate() # Load the datasets Titles = spark.read.csv(\"data/title.basics.tsv\", sep='\\t', header=True) Principals = spark.read.csv(\"data/title.principals.tsv\", sep='\\t', header=True) ## End of Housekeeping. # This is the description in Google Colab as well. # Step 1: IMDB lists many different kinds of media -- movies, video games, TV episodes, etc. Let's group the IMDB titles by titleType and count how many records exist belonging to each title type: # The estimated running time is &lt; 1 sec. title_type_counts = Titles.groupBy(\"titleType\") \\ .agg(count(\"*\").alias(\"numTitles\")) \\ .sort(desc(\"numTitles\")) # Log the output logger.info(\"Step 1: {}\".format(title_type_counts)) . ",
+    "url": "/docs/notebook/instruction",
+    
+    "relUrl": "/docs/notebook/instruction"
+  },"8": {
+    "doc": "PowerPoint Accessibility",
+    "title": "PowerPoint Accessibility",
+    "content": "How to Make PowerPoint Slides Accessible? . ",
+    "url": "/docs/PowerPoint",
+    
+    "relUrl": "/docs/PowerPoint"
+  },"9": {
+    "doc": "PowerPoint Accessibility",
+    "title": "First, why PowerPoint?",
+    "content": "It has easy ways to check and add accessibility features. For example, Check Accessibility and Selection/Reading Order are the two primary reasons that make PowerPoint accessible. To make slides accessible, you don’t need to discard your old slides. Instead, you can simply change or add some features. ",
+    "url": "/docs/PowerPoint#first-why-powerpoint",
+    
+    "relUrl": "/docs/PowerPoint#first-why-powerpoint"
+  },"10": {
+    "doc": "PowerPoint Accessibility",
+    "title": "Check Accessibility",
+    "content": "Check Accessibility is a feature that can flag several potential issues in your lecture slides. Not all flagged issues are 100% inaccessible (e.g., you might disagree with an issue about the reading order), but they are mostly accurate. Not all issues are caught by the automatic checker, and you will need to check for some accessibility issues (e.g., color contrast) manually . ",
+    "url": "/docs/PowerPoint#check-accessibility",
+    
+    "relUrl": "/docs/PowerPoint#check-accessibility"
+  },"11": {
+    "doc": "PowerPoint Accessibility",
+    "title": "Selection/Reading Order",
+    "content": "Selection/Reading Order impacts how a screen reader user reads your slide when they are reviewing it. Correct selection/reading order ensures that the screen reader will follow your presentation order. (Imagine that’s the order that you’re going to present your slides) If inaccurate, the reading order will confuse the screen readers. For example, for complex slides with multiple text boxes, make sure the conclusion doesn’t show up first or the caption doesn’t follow the wrong graphic. Missing alt text is another common barrier. Make sure you add alt text to any important graphics. Please see this guide for instructions on how to write good alt text. We also include other tricks and how to implement them in PowerPoin in this section. ",
+    "url": "/docs/PowerPoint#selectionreading-order",
+    
+    "relUrl": "/docs/PowerPoint#selectionreading-order"
+  },"12": {
+    "doc": "Useful Resources",
+    "title": "Useful Resources",
+    "content": "General Accessibility Guide: . | UW Disability Resources for Students: Link | UW Accessible Instruction: . | PowerPoint | Accessible Documents | . | Our DRS Page for Faculty (Under Additional Resources in Creating Accessible Classrooms): Link | Guide to write good image descriptions: Link | A useful series of tutorials from the University of Oklahoma to make office products accessible: Creating Accessible PowerPoint Presentations: YouTube Link | . Resources for Making Notebooks Accessible. | Checklist that could be useful when authoring and publishing notebooks in HTML. This checklist also has some suggestions that could be helpful when providing the notebook as a python script. | Documentation that describes the notebook percent format (an accessible notebook format that is recognized by VSCode). | A tutorial that explains configuration setup to pair a notebook and it’s script representation. | . More Accessible Technology homepage (more IT-related guide and resources) . | UW Accessible Technology | Help: Experiencing inaccessible IT? Please let us know. | IT Accessibility Checklist | UW-IT Accessible Technology Services | Training opportunities | Get Involved and IT Accessibility Liaisons | IT Accessibility Guidelines | . Center for Teaching and Learning Resources . | Accessible teaching strategies | Designing for inclusive learning | . More Details of the Tools . | MathJax to make html accessible | How to sonify a graph | Markdown cheatsheet | Table to markdown | Rapid prototyping LaTeX with LaTeXiT | . ",
+    "url": "/docs/resources",
+    
+    "relUrl": "/docs/resources"
+  },"13": {
+    "doc": "Computational Notebook Accessibility",
+    "title": "Computational Notebook Accessibility",
+    "content": "How to Make Computational Notebooks Accessible (e.g., Google Colab)? . In CS classes, we often use computational notebooks (e.g., Google Colab) to provide interactive learning experiences to implement and test algorithms. These notebooks are interactive and allow students to run code snippets and see the results immediately. However, these notebooks are not accessible to screen reader users (at least for now). To make Colab assignments more accessible, you can . | Organize your Colab activity with clear division. This will be helpful for all students to make sense of the notebook and especially helpful to prepare accessible content. | Host your Colab notebook as Python scripts. The students can work on a server (e.g., CSE servers accessible to students like attu1) or locally. We recommend a shared environment that can be tested by the course staff ahead of time since library incompatibilities etc. can present significant barriers to students. Working outside of interactive notebook environments means that students with visual impairment need to re-run entire programs rather than just single snippets/cells. This can take substantially more time, especially when the program is slow (e.g., ML on larger datasets). | . In this section, we will show you how to make computational notebooks accessible. ",
+    "url": "/docs/notebook",
+    
+    "relUrl": "/docs/notebook"
+  },"14": {
+    "doc": "Homework Write-up Accessibility",
+    "title": "How to Make Homework Write-Up Accessible?",
+    "content": "Homework write-up typically takes the form of a PDF file. Students download the PDF file, fill in the answers, and submit it to the instructor. However, PDF files are not often accessible to screen reader users. One solution is to accessible Markdown files, which is a small text to HTML conversion language with the goal of making writing formatted text in a plain text editor easier. Notably, Markdown is accessible to screen reader users and can be easily converted to PDF files too. One convenient way is to maintain a central Markdown file, which can be converted to a PDF file using pandoc. The benefit is that screen readers work with PDF files, especially when combined with Mathjax for math notation: . pandoc --toc --standalone --mathjax -f markdown -t html YOUR_HOMEWORK_FOLDER/*.md -o YOUR_HTML_NAME.html --metadata title=“HOMEWORK_TITLE\" . | pandoc is open-source document converter software. It is widely used for converting academic papers and technical documents to various formats, including HTML, PDF, and Microsoft Word. | --toc adds a table of contents to the converted document | --standalone means that the output is a standalone file | --mathjax MathJax is a JavaScript plugin that works with screen readers for math notation. | YOUR_HOMEWORK_FOLDER/*.md is the homework folder that contains your markdown files. | YOUR_HTML_NAME.html is the output html file. You can host this file on your course website. | . You can follow the same process if you had used LaTeX to set up your homework. To do this, replace markdown with latex. Example: . Below is an running example of converting a homework folder with LaTeX files into a HTML file: . | Create LaTeX files for your homework. For example, this homework includes three questions. (main.tex, inside sub-folders include association_rules.tex, lsh.tex, etc). You can create your files as you would usually do with LaTeX. | . | In your terminal, run the following command to compile the LaTeX files to MathJax using one simple command: | . pandoc --toc --standalone --mathjax -f latex -t html YOUR_SOURCE_LATEX_FILE.tex -o YOUR_HTML_NAME.html --metadata title=\"HOMEWORK_TITLE\" . In the command, replace the YOUR_HOMEWORK_FOLDER, YOUR_HTML_NAME.html, HOMEWORK_TITLE with your own setup. | Open the YOUR_HTML_NAME.html. Move the HTML file to your course server. That’s it! You can find an example of the generated html file at this link | . Overall, this process just generates an html file based on the Markdown or LaTeX files that you might have already. We found the generated HTML to be of acceptable quality. ",
+    "url": "/docs/homework#how-to-make-homework-write-up-accessible",
+    
+    "relUrl": "/docs/homework#how-to-make-homework-write-up-accessible"
+  },"15": {
+    "doc": "Homework Write-up Accessibility",
+    "title": "Homework Write-up Accessibility",
+    "content": " ",
+    "url": "/docs/homework",
+    
+    "relUrl": "/docs/homework"
+  },"16": {
+    "doc": "Add Alternative Text",
+    "title": "Add Alternative Text",
+    "content": "Alternative (Alt) Text is meant to convey the “why” of the image as it relates to the content of a document or webpage. It is read aloud to users by screen reader software, and it is indexed by search engines. It also displays on the page if the image fails to load, as in this example of a missing image. Please see this guide for instructions on how to write good alt text. Missing alt text is a common barriers for students with visual impairment. Make sure you add alt text to any important graphics. When we checked accessibility earlier, you might also notice that many images are missing alternative (alt) text in the Check Accessibility panel. We will now show how to add alt text in different scenarios. ",
+    "url": "/docs/PowerPoint/add-alt-text/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/"
+  },"17": {
+    "doc": "Add Latex for Math Notations",
+    "title": "Add Latex for Math Notations",
+    "content": "Make sure to add latex for complex math notation if you just include a screenshot/picture of the math. Some students with visual impairments are able to read latex representations. Consider the example about TF-IDF below: . In the example, there are texts, inline math symbols (e.g., $f_{ij}$), math equation as one line (e.g., $TF_{ij} = \\frac{f_{ij}}{max_{k}f_{kj}}$), arrows, and explanation. It involves many components and adding alt text to each single component can be challenging both for the authors and the readers. To resolve this problem, you should: . | Keep your original slide (yes, regardless of how many components). | Mark all components decorative. | . | Create another white box and add alt text as LaTeX to it. | . LaTeXiT is a great tool to quickly iterate on the LaTeX formula as you work on your slides. ",
+    "url": "/docs/PowerPoint/add-latex-to-math/",
+    
+    "relUrl": "/docs/PowerPoint/add-latex-to-math/"
+  },"18": {
+    "doc": "Check Accessibility",
+    "title": "Check Accessibility",
+    "content": "“Check Accessibility” gives you an overview of potential accessibility issues on your slides. It is a great tool to help you identify most potential issues. However, it is not perfect. For example, it may flag some issues that are not actually inaccessible. Therefore, you should always double-check the flagged issues and make sure they are actually accessibile. 1. Launch the accessibility checker. To launch the accessibility checker: select Review → Check Accessibility. 2. Check the accessibility panel. You can check the accessibility panel typically on the right after you click the button. Now you can see there are so many errors on our slide. 3. Check the details of each error and warnings. When you click into an error, PowerPoint gives you recommendations on how to fix these issues. For example below, “Group 5” is missing alternative text. It turns out that we didn’t add alt text to the “Paul G. Allen School of Computer Science &amp; Engineering” logo, which is an image. ",
+    "url": "/docs/PowerPoint/check-accessibility/",
+    
+    "relUrl": "/docs/PowerPoint/check-accessibility/"
+  },"19": {
+    "doc": "Check Reading Order",
+    "title": "Check Reading Order (Selection Order)",
+    "content": "Reading order is also called selection order in some PowerPoint versions. The Reading Order impacts how a screen reader user reads your slide when they are reviewing it. Correct selection/reading order ensures that the screen reader will follow your presentation order. (Imagine that’s the order that you’re going to present your slides) If inaccurate, the reading order will confuse the screen readers. For example, for complex slides with multiple text boxes, make sure the conclusion doesn’t show up first or the caption doesn’t follow the wrong graphic. When we checked accessibility in the last section, we could see that there are 25 errors in the reading order. Now it’s time to learn how to fix the reading order. 1. Launch the selection/reading order panel. Next to the Review → Check Accessibility button, you can find the Selection Pane button. An alternative way to open this: Home → Arrange → Selection Pane . 2. Preview the reading order on the selection pane. We can find the Selection Pane on the right. It will include all the content that will be parsed by a screen reader. You can see the reading order of the slide on the Selection Pane. The order goes from bottom to top on Mac; it goes from top to bottom on PC. Below shows an example of a slide and the reading order on the Selection Pane. The reading order is from bottom to top on Mac. 3. Drag and reorder the components. To address the inaccurate order, drag the components to reorder. For example, the order in the slide above is actually inaccurate. We want to show Title 1 first and then Textbox 6. (i.e., show the title first and then the subtitles and the author.) . You should also delete unnecessary components. For example, when we click “Textbox 6”, we actually see an empty box highlighted. It turns out it’s a text box that we forgot to remove when preparing the slide. A redundant textbox like this will likely confuse screen reader users. 4. Review the reading order. When you finish addressing the reading order for all slides, make sure to go back to Review → Check Accessibility to see if any warnings are reported. If so, double-check whether you missed a few slides or if you intended your slides to be in a certain order. If the latter you can safely ignore the warnings. ",
+    "url": "/docs/PowerPoint/check-reading/#check-reading-order-selection-order",
+    
+    "relUrl": "/docs/PowerPoint/check-reading/#check-reading-order-selection-order"
+  },"20": {
+    "doc": "Check Reading Order",
+    "title": "Check Reading Order",
+    "content": " ",
+    "url": "/docs/PowerPoint/check-reading/",
+    
+    "relUrl": "/docs/PowerPoint/check-reading/"
+  },"21": {
+    "doc": "Common Barriers",
+    "title": "PowerPoint Slides:",
+    "content": "Imagine a blind student trying to understand matrix multiplication in a highly animated PowerPoint slide. The image of a matrix that you animated happened to be a screenshot from a textbook. Under that scenario, sighted students can easily understand the transformation with the engaging slide, but blind students will likely be completely lost. A key takeaway to making PowerPoint slides is not to completely rely on visual cues. You should always consider adding alt text to images, animations, and math notations. If visual cues are important, you can consider augmenting the experience with tactile graphics (braille). ",
+    "url": "/docs/introduction/common_barriers/#powerpoint-slides",
+    
+    "relUrl": "/docs/introduction/common_barriers/#powerpoint-slides"
+  },"22": {
+    "doc": "Common Barriers",
+    "title": "Computational notebook software, such as Google Colab:",
+    "content": "make it easier to collaborate and share code. However, screen reader users cannot access and work with these notebooks, as of this writing. To make computational notebooks more accessible, you can easily create separate Python files for each section of your notebook. Additionally, blind users may not be able to create visualizations as homework deliverables. Instead, you can consider having them present the information in an alternate format to test the correctness (e.g., a data table). ",
+    "url": "/docs/introduction/common_barriers/#computational-notebook-software-such-as-google-colab",
+    
+    "relUrl": "/docs/introduction/common_barriers/#computational-notebook-software-such-as-google-colab"
+  },"23": {
+    "doc": "Common Barriers",
+    "title": "Document assignments:",
+    "content": "PDFs are often inaccessible to people using screen readers by default. We recommend releasing the Markdown and LaTeX files whenever possible. It is easy to use pandoc convert a Markdown/LaTeX file with math notations to an accessible HTML file supported by MathJax, which works with screen readers (see section 4). ",
+    "url": "/docs/introduction/common_barriers/#document-assignments",
+    
+    "relUrl": "/docs/introduction/common_barriers/#document-assignments"
+  },"24": {
+    "doc": "Common Barriers",
+    "title": "In-class activities:",
+    "content": "In-class discussions are often accessible by default if they don’t heavily rely on a visual component. However, if your in-class activity needs to focus on a visual element (e.g., discussing the drawbacks between k-means and hierarchical clustering), it helps if you can provide tactile graphics. The Disability Resources for Students can help create these from images and slides. ",
+    "url": "/docs/introduction/common_barriers/#in-class-activities",
+    
+    "relUrl": "/docs/introduction/common_barriers/#in-class-activities"
+  },"25": {
+    "doc": "Common Barriers",
+    "title": "Group project:",
+    "content": "It helps to talk with the students ahead of time to understand what accommodations they might need for a project. In team-based projects, sometimes students like to focus on a certain part of the project, e.g., literature review, giving presentations, or writing, instead of more inaccessible elements (e.g., analyzing visualizations). Now that you have a high-level understanding of where you may encounter accessibility issues in your class, the next few sections are going to expand on each point and guide you through concrete steps to make them more accessible. ",
+    "url": "/docs/introduction/common_barriers/#group-project",
+    
+    "relUrl": "/docs/introduction/common_barriers/#group-project"
+  },"26": {
+    "doc": "Common Barriers",
+    "title": "Common Barriers",
+    "content": " ",
+    "url": "/docs/introduction/common_barriers/",
+    
+    "relUrl": "/docs/introduction/common_barriers/"
+  },"27": {
+    "doc": "How to add alt text",
+    "title": "How to add alt text?",
+    "content": ". | Right-click a picture and find View Alt Text. | Write and edit the alt text. | Make your alt text descriptive. | Avoid unnecessary long alt text. | Include tactile graphics when possible. | . 1. Right-click a picture and find View Alt Text. 2. Write and edit the alt text. The Alt Text pane will show up on the right. You can simply add a description. 3. Make your alt text descriptive. It is important to make your alt text descriptive and specific. For example, the alt text above “This is a profile picture of classic 1980s man who is into rock music with long hair” detailed the picture pretty well. In contrast, you shouldn’t simply say “Customer X”. For more details on how to write image descriptions, please see this guide. 4. Avoid unnecessary long alt text. Your alt text shouldn’t be unnecessarily long. Consider why you included that image. What point were you trying to get across? Use this purpose to help you select what details to include. Look at the example below. For the scatter plot and red line, we actually don’t care about the number of points or the color of these points or lines. We want to convey that the line is the singular vector that captures the most variance of these points, meaning that the line is aligned with the points in 2D space. 5. Include tactile graphics when possible. Complement graphs with tactile graphics when possible. For the dimensionality reduction example, it may be beneficial to add tactile graphics so that the students can “feel” what you are talking about. Please refer to THIS SECTION. ",
+    "url": "/docs/PowerPoint/add-alt-text/how-to-add-alt-text/#how-to-add-alt-text",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/how-to-add-alt-text/#how-to-add-alt-text"
+  },"28": {
+    "doc": "How to add alt text",
+    "title": "How to add alt text",
+    "content": " ",
+    "url": "/docs/PowerPoint/add-alt-text/how-to-add-alt-text/",
+    
+    "relUrl": "/docs/PowerPoint/add-alt-text/how-to-add-alt-text/"
+  },"29": {
+    "doc": "Home",
+    "title": "Accessibility Guide for Classes at UW CSE",
+    "content": ". This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently. ",
+    "url": "/#accessibility-guide-for-classes-at-uw-cse",
+    
+    "relUrl": "/#accessibility-guide-for-classes-at-uw-cse"
+  },"30": {
+    "doc": "Home",
+    "title": "How to use this document",
+    "content": "To understand common accessibility barriers in class, you should read the Common Accessibility Barriers in Classrooms, which outlines issues such as PowerPoint Slides, computational notebooks, homework assignments. Then, we recommend reviewing the specific sections while you are working on the corresponding election of your class. We also encourage you to show the students examples of your course materials, and specify the tools that may be used for homeworks before they take the class, to identify any remaining barriers early. This document focuses on students with visual impairments. here are many students with a range of disabilities, with a variety of access needs who may require accommodations to succeed in higher education courses. We highly recommend contacting Disability Resources for Students (DRS) at the earliest possible based on your students’ access needs. Note that many campuses’ disability offices are extremely overworked, therefore, we also suggest you give this document a read before reaching out for further questions. In creating this document, we consulted with Disability Resources for Students and received valuable feedback from Esteban Safranchik, Ken Gu, and Katharina Reinecke. If you have comments, please reach out to Rock Yuren Pang and Tim Althoff (ypang2@cs.washington.edu and althoff@cs.washington.edu). We also welcome additional feedback to improve this document. ",
+    "url": "/#how-to-use-this-document",
+    
+    "relUrl": "/#how-to-use-this-document"
+  },"31": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"32": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently. ",
+    "url": "/docs/introduction",
+    
+    "relUrl": "/docs/introduction"
+  },"33": {
+    "doc": "Represent Flowcharts and Graphs with Mermaid",
+    "title": "Represent Flowcharts and Graphs with Mermaid",
+    "content": "Flowchat is a common chart in slides that represents a workflow or process. While you can certainly add detailed text description in your alt text, you can augment your flowchart with a Mermaid representation. Mermaid lets you create diagrams and visualizations using text and code. It is especially beneficial to augment flowcharts. BVI students will “compile” the Mermaid declarative grammar themselves. What we are doing here is transforming graph structure in a declarative format so that screenreaders can interact with them. Here is the URL to the Mermaid documentation and the URL to an online playground. Let’s look at an example: . | We show an image from an original PowerPoint slide. First let’s change the color contrast: | . | We will add the Mermaid diagram. You can also look at the image that Mermaid compiles A Mermaid-compiled flowchart. | . ",
+    "url": "/docs/PowerPoint/mermaid/",
+    
+    "relUrl": "/docs/PowerPoint/mermaid/"
+  },"34": {
+    "doc": "Organize Your Computational Notebook",
+    "title": "How to Organize Your Computational Notebook?",
+    "content": "In this section, we will provide an example to illustrate how to organize your computational notebook. This will be helpful for all students to make sense of the notebook and especially helpful to prepare accessible content. 1. Check the table of contents. Check the table of contents on your Colab left bar. Make sure each section has a clear title and description. 2. Divide the Colab Document into Separate Python Scripts. A good guide to organize your Colab notebook is to divide it into separate Python scripts. Migrate the sections into separate Python scripts. The goal here is that screen reader users can work on the modular script for each section. You might realize that we created a separate data folder in the github directory compared to drive = GoogleDrive(gauth) which is unique to Google Colab. Make sure that you share your data file (e.g., Google Drive) so that everyone can have access to it. 3. Run the notebook to make sure everything works. Always to run the notebook before releasing the homework. Also, host your notebook on a shared environment that can be tested by the course staff ahead of time since library incompatibilities etc. can present significant barriers to students. ",
+    "url": "/docs/notebook/organize#how-to-organize-your-computational-notebook",
+    
+    "relUrl": "/docs/notebook/organize#how-to-organize-your-computational-notebook"
+  },"35": {
+    "doc": "Organize Your Computational Notebook",
+    "title": "Organize Your Computational Notebook",
+    "content": " ",
+    "url": "/docs/notebook/organize",
+    
+    "relUrl": "/docs/notebook/organize"
+  },"36": {
+    "doc": "High-Level Recommendations",
+    "title": "Communicate before the quarter.",
+    "content": "To accommodate the needs for different students, we recommend communicating with the students before the quarter. Ask them if they need additional accommodations like accessible PowerPoint and coding/homework setup. ",
+    "url": "/docs/introduction/recommendation/#communicate-before-the-quarter",
+    
+    "relUrl": "/docs/introduction/recommendation/#communicate-before-the-quarter"
+  },"37": {
+    "doc": "High-Level Recommendations",
+    "title": "Communicate with DRS.",
+    "content": "You should communicate with the DRS if this document doesn’t cover specific needs from students. Also it’s helpful to print out necessary braille materials in the beginning of the quarter. The DRS is helpful and the turnaround is usually within 2 weeks. ",
+    "url": "/docs/introduction/recommendation/#communicate-with-drs",
+    
+    "relUrl": "/docs/introduction/recommendation/#communicate-with-drs"
+  },"38": {
+    "doc": "High-Level Recommendations",
+    "title": "Make the accessible slides publicly",
+    "content": "Make the accessible slides publicly available on the course website so that all students have the chance to preview the slides if they would like to. Share the accessible materials (e.g., braille) with the students 1 week before the class session. ",
+    "url": "/docs/introduction/recommendation/#make-the-accessible-slides-publicly",
+    
+    "relUrl": "/docs/introduction/recommendation/#make-the-accessible-slides-publicly"
+  },"39": {
+    "doc": "High-Level Recommendations",
+    "title": "Test the server before launching homework or colab activities.",
+    "content": "Before releasing the homework or colab on a server, please test that the code can run on the server without configuration issues. Configuration issues can be significant overhead burdens to BVI students. Any unexpected configuration errors can significantly hurt student’s confidence to succeed in the class. ",
+    "url": "/docs/introduction/recommendation/#test-the-server-before-launching-homework-or-colab-activities",
+    
+    "relUrl": "/docs/introduction/recommendation/#test-the-server-before-launching-homework-or-colab-activities"
+  },"40": {
+    "doc": "High-Level Recommendations",
+    "title": "Always adjust needs for individual students.",
+    "content": "Note that each student might have different access needs, and preferences to navigate accessibility barriers. Please discuss with them throughout the course for feedback. ",
+    "url": "/docs/introduction/recommendation/#always-adjust-needs-for-individual-students",
+    
+    "relUrl": "/docs/introduction/recommendation/#always-adjust-needs-for-individual-students"
+  },"41": {
+    "doc": "High-Level Recommendations",
+    "title": "High-Level Recommendations",
+    "content": "Here are high-level recommendations on how to proceed in a class to improve accessibility for BLV students. ",
+    "url": "/docs/introduction/recommendation/",
+    
+    "relUrl": "/docs/introduction/recommendation/"
+  },"42": {
+    "doc": "Set up your Server Environment",
+    "title": "Set up your Server Environment",
+    "content": "This section will show you how to set up your server environment. We will use the CSE server as an example. 1. Contact IT Support . Contact support@cs.washington.edu to create a folder in attu1 and add r/w permissions to the students based on their NetID. You can set up your homework/colab code there. The students can also work on them there. Don’t use UW cycle servers, you will run into permission issues. Sometimes, attu1 can be slow. Please contact IT support to set up a new server (e.g., AWS, Google Cloud) if you need a more stable server for class purpose. Once you have the folder set up, you can git clone your homework/colab code there. ",
+    "url": "/docs/notebook/setup",
+    
+    "relUrl": "/docs/notebook/setup"
+  },"43": {
+    "doc": "Create Tactile Graphics",
+    "title": "Create Tactile Graphics",
+    "content": "Sometimes alt text might just not be enough, you can reach out to Disability Resources for Students (or the equivalent office at your university or college campus) to print out the braille of some visualizations. For example, the image below is important to understand clustering. We could rely on alt text, but the tactile experience will augment the experience for blind students. To create the braille artifacts, you should: . | Have a folder of the images that you need to print out. Ideally, the image will be in svg format. | Contact Disability Resources for Students indicating that you need help with tactile graphics.They can help facilitate this process. | However, notice that it is expensive and time-consuming to print out tactile graphics, so it typically makes sense to select only images that are essential to understand foundational concepts. Note that in CSE547 we approached DRS one quarter in advance - still, not all tactile graphics could be delivered on time during the course the following quarter. Planning early is critical. This delay might be even longer at other universities. | . ",
+    "url": "/docs/PowerPoint/tectile-graphics/",
+    
+    "relUrl": "/docs/PowerPoint/tectile-graphics/"
+  }
+}
