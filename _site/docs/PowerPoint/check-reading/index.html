@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+ <style type="text/css">
+.site-nav > .nav-list:nth-child(1):not(.nav-category-list) > .nav-list-item:not(.external):nth-child(3) > .nav-list > .nav-list-item:nth-child(2) > .nav-list-link {
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
+}
+.site-nav > .nav-list:nth-child(1):not(.nav-category-list) > .nav-list-item:nth-child(3) > .nav-list-expander svg,
+.site-nav > .nav-list:nth-child(1):not(.nav-category-list) > .nav-list-item:nth-child(3) > .nav-list > .nav-list-item:nth-child(2) > .nav-list-expander svg {
+  transform: rotate(-90deg);
+}
+.site-nav > .nav-list:nth-child(1):not(.nav-category-list) > .nav-list-item:nth-child(3) > .nav-list,
+.site-nav > .nav-list:nth-child(1):not(.nav-category-list) > .nav-list-item:nth-child(3) > .nav-list > .nav-list-item:nth-child(2) > .nav-list {
+  display: block;
+}
+.site-nav > .nav-category-list > .nav-list-item > .nav-list-expander svg {
+  transform: rotate(-90deg);
+}
+.site-nav > .nav-category-list > .nav-list-item > .nav-list {
+  display: block;
+}
+</style>
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+  <script src="/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>Check Reading Order | Just the Docs</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Check Reading Order" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A Jekyll theme for documentation" />
+<meta property="og:description" content="A Jekyll theme for documentation" />
+<link rel="canonical" href="http://localhost:4000/docs/PowerPoint/check-reading/" />
+<meta property="og:url" content="http://localhost:4000/docs/PowerPoint/check-reading/" />
+<meta property="og:site_name" content="Just the Docs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Check Reading Order" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A Jekyll theme for documentation","headline":"Check Reading Order","url":"http://localhost:4000/docs/PowerPoint/check-reading/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header" role="banner">
+    <a href="/" class="site-title lh-tight">
+  Just the Docs
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Introduction category" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+    </button><a href="/docs/introduction" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/introduction/common_barriers/" class="nav-list-link">Common Barriers</a><li class="nav-list-item"><a href="/docs/introduction/recommendation/" class="nav-list-link">High-Level Recommendations</a></ul><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in PowerPoint Accessibility category" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+    </button><a href="/docs/PowerPoint" class="nav-list-link">PowerPoint Accessibility</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/PowerPoint/check-accessibility/" class="nav-list-link">Check Accessibility</a><li class="nav-list-item"><a href="/docs/PowerPoint/check-reading/" class="nav-list-link">Check Reading Order</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Add Alternative Text category" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+          </button><a href="/docs/PowerPoint/add-alt-text/" class="nav-list-link">Add Alternative Text</a><ul class="nav-list"><li class="nav-list-item">
+                <a href="/docs/PowerPoint/add-alt-text/how-to-add-alt-text/" class="nav-list-link">How to add alt text</a>
+             <li class="nav-list-item">
+                <a href="/docs/PowerPoint/add-alt-text/02-automatic-alt-text-generation/" class="nav-list-link">Automatic Alt Text Generation</a>
+             <li class="nav-list-item">
+                <a href="/docs/PowerPoint/add-alt-text/03-decorative/" class="nav-list-link">Mark Image as Decorative</a>
+             <li class="nav-list-item">
+                <a href="/docs/PowerPoint/add-alt-text/04-group-image/" class="nav-list-link">Group Images on PowerPoint</a>
+             <li class="nav-list-item">
+                <a href="/docs/PowerPoint/add-alt-text/05-animation/" class="nav-list-link">Make Animation Accessible</a>
+             </ul><li class="nav-list-item"><a href="/docs/PowerPoint/add-latex-to-math/" class="nav-list-link">Add Latex for Math Notations</a><li class="nav-list-item"><a href="/docs/PowerPoint/mermaid/" class="nav-list-link">Represent Flowcharts and Graphs with Mermaid</a><li class="nav-list-item"><a href="/docs/PowerPoint/tectile-graphics/" class="nav-list-link">Create Tactile Graphics</a></ul><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Computational Notebook Accessibility category" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+    </button><a href="/docs/notebook" class="nav-list-link">Computational Notebook Accessibility</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/notebook/organize" class="nav-list-link">Organize Your Computational Notebook</a><li class="nav-list-item"><a href="/docs/notebook/setup" class="nav-list-link">Set up your Server Environment</a><li class="nav-list-item"><a href="/docs/notebook/instruction" class="nav-list-link">Instructions and Loggings</a></ul><li class="nav-list-item"><a href="/docs/homework" class="nav-list-link">Homework Write-up Accessibility</a><li class="nav-list-item"><a href="/docs/resources" class="nav-list-link">Useful Resources</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search" role="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Just the Docs" aria-label="Search Just the Docs" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+</div>
+   <div class="main-content-wrap">
+     <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+ <ol class="breadcrumb-nav-list">
+   <li class="breadcrumb-nav-list-item"><a href="/docs/PowerPoint">PowerPoint Accessibility</a>
+ <li class="breadcrumb-nav-list-item"><span>Check Reading Order</span>
+ </ol>
+</nav>
+     <div id="main-content" class="main-content">
+       <main>
+           <h1 class="fs-9" id="check-reading-order-selection-order">
+    <a href="#check-reading-order-selection-order" class="anchor-heading" aria-labelledby="check-reading-order-selection-order"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Check Reading Order (Selection Order)
+</h1>
+<p>Reading order is also called selection order in some PowerPoint versions. The Reading Order impacts how a screen reader user reads your slide when they are reviewing it. Correct selection/reading order  ensures that the screen reader will follow your presentation order. (Imagine that’s the order that you’re going to present your slides) If inaccurate, the reading order will confuse the screen readers. For example, for complex slides with multiple text boxes, make sure the conclusion doesn’t show up first or the caption doesn’t follow the wrong graphic.</p>
+<p>When we <a href="/docs/PowerPoint/check-accessibility/#2-check-the-accessibility-panel">checked accessibility in the last section</a>, we could see that there are 25 errors in the reading order. Now it’s time to learn how to <strong>fix the reading order</strong>.</p>
+<h3 id="1-launch-the-selectionreading-order-panel">
+    <a href="#1-launch-the-selectionreading-order-panel" class="anchor-heading" aria-labelledby="1-launch-the-selectionreading-order-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Launch the selection/reading order panel.
+</h3>
+<p>Next to the <strong>Review → Check Accessibility</strong> button, you can find the Selection Pane button.</p>
+<p><img src="/assets/images/PowerPoint/reading-order-1.png" alt="Under the same accessibility button in the review tab, one of the drop down list items &quot;selection pane&quot; is highlighted" /></p>
+<p>An alternative way to open this: <strong>Home → Arrange → Selection Pane</strong></p>
+<p><img src="/assets/images/PowerPoint/reading-order-2.png" alt="A screenshot of the &quot;selection pane&quot; option highlighted in the &quot;arrange&quot; dropdown" width="400px" /></p>
+<h3 id="2-preview-the-reading-order-on-the-selection-pane">
+    <a href="#2-preview-the-reading-order-on-the-selection-pane" class="anchor-heading" aria-labelledby="2-preview-the-reading-order-on-the-selection-pane"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Preview the reading order on the selection pane.
+</h3>
+<p>We can find the Selection Pane on the right. It will include all the content that will be parsed by a screen reader. You can see the reading order of the slide on the Selection Pane.</p>
+<p class="note">The order goes from bottom to top on Mac; it goes from top to bottom on PC.</p>
+<p>Below shows an example of a slide and the reading order on the Selection Pane. The reading order is from bottom to top on Mac.</p>
+<p><img src="/assets/images/PowerPoint/reading-order-3.png" alt="A screenshot of a powerpoint slide and the selection pane. On the left, there is a powerpoint slide with several text boxes and one image. on the right we see a pane listing out textboxes and images in an ordered list. Right now the title element is at the top of the list and the last textbox (called textbox 6) is at the bottom." /></p>
+<h3 id="3-drag-and-reorder-the-components">
+    <a href="#3-drag-and-reorder-the-components" class="anchor-heading" aria-labelledby="3-drag-and-reorder-the-components"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 3. Drag and reorder the components.
+</h3>
+<p>To address the inaccurate order, <strong>drag the components to reorder</strong>. For example, the order in the slide above is actually inaccurate. We want to show Title 1 first and then Textbox 6. (i.e., show the title first and then the subtitles and the author.)</p>
+<p>You should also <strong>delete unnecessary components</strong>. For example, when we click “Textbox 6”, we actually see an empty box highlighted. It turns out it’s a text box that we forgot to remove when preparing the slide. A redundant textbox like this will likely confuse screen reader users.</p>
+<h3 id="4-review-the-reading-order">
+    <a href="#4-review-the-reading-order" class="anchor-heading" aria-labelledby="4-review-the-reading-order"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 4. Review the reading order.
+</h3>
+<p>When you finish addressing the reading order for all slides, make sure to go back to <strong>Review → Check Accessibility</strong> to see if any warnings are reported. If so, double-check whether you missed a few slides or if you intended your slides to be in a certain order. If the latter you can safely ignore the warnings.</p>
+       </main>
+ <hr>
+ <footer>
+     <p><a href="#top" id="back-to-top">Back to top</a></p>
+     <div class="d-flex mt-2">
+         <p class="text-small text-grey-dk-000 mb-0">
+            <a href="https://github.com/just-the-docs/just-the-docs/tree/main/docs/PowerPoint/check-reading.md" id="edit-this-page">Edit this page on GitHub</a>
+         </p>
+     </div>
+ </footer>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+<script>
+  var config = {}
+;
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+  
