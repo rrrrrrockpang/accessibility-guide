@@ -28,8 +28,7 @@
     <script src="/assets/js/vendor/lunr.min.js"></script>
   <script src="/assets/js/just-the-docs.js"></script>
  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<title>Home | Just the Docs</title>
+<title>Home | Accessibility Guide</title>
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
@@ -37,12 +36,12 @@
 <meta property="og:description" content="This Accessibility Guide for Classes allows you to create class accessible materials for students." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Just the Docs" />
+<meta property="og:site_name" content="Accessibility Guide" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"This Accessibility Guide for Classes allows you to create class accessible materials for students.","headline":"Home","name":"Just the Docs","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"This Accessibility Guide for Classes allows you to create class accessible materials for students.","headline":"Home","name":"Accessibility Guide","url":"http://localhost:4000/"}</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
     integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
@@ -120,16 +119,14 @@
  <div class="side-bar">
  <div class="site-header" role="banner">
     <a href="/" class="site-title lh-tight">
-  Just the Docs
+  Accessibility Guide
 </a>
     <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </button>
  </div>
  <nav aria-label="Main" id="site-nav" class="site-nav">
-     <ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Introduction category" aria-pressed="false">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
-    </button><a href="/docs/introduction" class="nav-list-link">Introduction</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/introduction/common_barriers/" class="nav-list-link">Common Barriers</a><li class="nav-list-item"><a href="/docs/introduction/recommendation/" class="nav-list-link">High-Level Recommendations</a></ul><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in PowerPoint Accessibility category" aria-pressed="false">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in PowerPoint Accessibility category" aria-pressed="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
     </button><a href="/docs/PowerPoint" class="nav-list-link">PowerPoint Accessibility</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/PowerPoint/check-accessibility/" class="nav-list-link">Check Accessibility</a><li class="nav-list-item"><a href="/docs/PowerPoint/check-reading/" class="nav-list-link">Check Reading Order</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Add Alternative Text category" aria-pressed="false">
             <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
@@ -155,7 +152,7 @@
    <div id="main-header" class="main-header">
 <div class="search" role="search">
  <div class="search-input-wrap">
-    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Just the Docs" aria-label="Search Just the Docs" autocomplete="off">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Accessibility Guide" aria-label="Search Accessibility Guide" autocomplete="off">
     <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
  </div>
  <div id="search-results" class="search-results"></div>
@@ -167,9 +164,17 @@
            <h1 class="fs-9" id="accessibility-guide-for-classes-at-uw-cse">
     <a href="#accessibility-guide-for-classes-at-uw-cse" class="anchor-heading" aria-labelledby="accessibility-guide-for-classes-at-uw-cse"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Accessibility Guide for Classes at UW CSE
 </h1>
-   <hr />
-<p>This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you.</p>
-<p>We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently.</p>
+<p class="fs-6 fw-300">This Accessibility Guide for Classes allows you to create class accessible materials for students.</p>
+<p class="no_toc text-delta">Table of Contents</p>
+<ul>
+ <li><a href="#how-to-use-this-document">How to use this document</a>
+ <li><a href="#common-barriers-in-cs-classrooms">Common Barriers in CS Classrooms</a>
+ <li><a href="#high-level-takeaway">High-level Takeaway</a>
+</ul>
+<p>This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. 
+We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently.</p>
+<p><strong>Intended Audience</strong> Instructors and TAs who are teaching math or CS classes, or anyone who is interested in making accessible course materials including PowerPoint slides, Computational Notebooks, and Homework Write-ups.</p>
+<p>This guide was made possible during CSE 547 Fall 2022 at UW, where we collaborated with the Disability Resources for Students (DRS). We hope that this guide will be useful to other instructors and TAs who are interested in making their classes more accessible. We warmly welcome feedback and suggestions to improve this guide.</p>
 <h2 class="fs-6 fw-300" id="how-to-use-this-document">
     <a href="#how-to-use-this-document" class="anchor-heading" aria-labelledby="how-to-use-this-document"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to use this document
 </h2>
@@ -177,13 +182,63 @@
 <p>We also encourage you to show the students examples of your course materials, and specify the tools that may be used for homeworks before they take the class, to identify any remaining barriers early.</p>
 <p>This document focuses on students with visual impairments. here are many  students with a range of disabilities, with a variety of access needs who may require accommodations to succeed in higher education courses. We highly recommend contacting Disability Resources for Students (DRS) at the earliest possible based on your students’ access needs. Note that many campuses’ disability offices are extremely overworked, therefore, we also suggest you give this document a read before reaching out for further questions.</p>
 <p>In creating this document, we consulted with Disability Resources for Students and received valuable feedback from Esteban Safranchik, Ken Gu, and Katharina Reinecke. If you have comments, please reach out to Rock Yuren Pang and Tim Althoff (ypang2@cs.washington.edu and althoff@cs.washington.edu). We also welcome additional feedback to improve this document.</p>
+<h2 class="fs-6 fw-300" id="common-barriers-in-cs-classrooms">
+    <a href="#common-barriers-in-cs-classrooms" class="anchor-heading" aria-labelledby="common-barriers-in-cs-classrooms"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Common Barriers in CS Classrooms
+</h2>
+<h3 id="powerpoint-slides">
+    <a href="#powerpoint-slides" class="anchor-heading" aria-labelledby="powerpoint-slides"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> PowerPoint Slides
+</h3>
+<p>Imagine a blind student trying to understand matrix multiplication in a highly animated PowerPoint slide. The image of a  matrix that you animated happened to be a screenshot from a textbook. Under that scenario, sighted students can easily understand the transformation with the engaging slide, but blind students will likely be completely lost.</p>
+<p>A key takeaway to making PowerPoint slides is not to completely rely on visual cues. You should always consider adding alt text to images, animations, and math notations. If visual cues are important, you can consider augmenting the experience with tactile graphics (braille).</p>
+<h3 id="computational-notebook-software-such-as-google-colab">
+    <a href="#computational-notebook-software-such-as-google-colab" class="anchor-heading" aria-labelledby="computational-notebook-software-such-as-google-colab"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Computational notebook software, such as Google Colab
+</h3>
+<p>make it easier to collaborate and share code. However, screen reader users cannot access and work with these notebooks, as of this writing.</p>
+<p>To make computational notebooks more accessible, you can easily create separate Python files for each section of your notebook. Additionally, blind users may not be able to create visualizations as homework deliverables. Instead, you can consider having them present the information in an alternate format to test the correctness (e.g., a data table).</p>
+<h3 id="document-assignments">
+    <a href="#document-assignments" class="anchor-heading" aria-labelledby="document-assignments"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Document assignments
+</h3>
+<p>PDFs are often inaccessible to people using screen readers by default. We recommend releasing the Markdown and LaTeX files whenever possible. It is easy to use pandoc convert a Markdown/LaTeX file with math notations to an accessible HTML file supported by MathJax, which works with screen readers (see section 4).</p>
+<h3 id="in-class-activities">
+    <a href="#in-class-activities" class="anchor-heading" aria-labelledby="in-class-activities"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> In-class activities
+</h3>
+<p>In-class discussions are often accessible by default if they don’t heavily rely on a visual component. However, if your in-class activity needs to focus on a visual element (e.g., discussing the drawbacks between k-means and hierarchical clustering), it helps if you can provide tactile graphics. The Disability Resources for Students can help create these from images and slides.</p>
+<h3 id="group-project">
+    <a href="#group-project" class="anchor-heading" aria-labelledby="group-project"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Group project
+</h3>
+<p>It helps to talk with the students ahead of time to understand what accommodations they might need for a project. In team-based projects, sometimes students like to focus on a certain part of the project, e.g., literature review, giving presentations, or writing, instead of more inaccessible elements (e.g., analyzing visualizations).</p>
+<p>Now that you have a high-level understanding of where you may encounter accessibility issues in your  class, the next few sections are going to expand on each point and guide you through concrete steps to make them more accessible.</p>
+<h2 class="fs-6 fw-300" id="high-level-takeaway">
+    <a href="#high-level-takeaway" class="anchor-heading" aria-labelledby="high-level-takeaway"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> High-level Takeaway
+</h2>
+<p>Here are high-level recommendations on how to proceed in a class to improve accessibility for BLV students.</p>
+<h3 id="communicate-before-the-quarter">
+    <a href="#communicate-before-the-quarter" class="anchor-heading" aria-labelledby="communicate-before-the-quarter"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communicate before the quarter.
+</h3>
+<p>To accommodate the needs for different students, we recommend communicating with the students before the quarter. Ask them if they need additional accommodations like accessible PowerPoint and coding/homework setup.</p>
+<h3 id="communicate-with-drs">
+    <a href="#communicate-with-drs" class="anchor-heading" aria-labelledby="communicate-with-drs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Communicate with DRS.
+</h3>
+<p>You should communicate with the DRS if this document doesn’t cover specific needs from students. Also it’s helpful to print out necessary braille materials in the beginning of the quarter. The DRS is helpful and the turnaround is usually within 2 weeks.</p>
+<h3 id="make-the-accessible-slides-publicly">
+    <a href="#make-the-accessible-slides-publicly" class="anchor-heading" aria-labelledby="make-the-accessible-slides-publicly"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Make the accessible slides publicly
+</h3>
+<p>Make the accessible slides publicly available on the course website so that all students have the chance to preview the slides if they would like to. Share the accessible materials (e.g., braille) with the students 1 week before the class session.</p>
+<h3 id="test-the-server-before-launching-homework-or-colab-activities">
+    <a href="#test-the-server-before-launching-homework-or-colab-activities" class="anchor-heading" aria-labelledby="test-the-server-before-launching-homework-or-colab-activities"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Test the server before launching homework or colab activities.
+</h3>
+<p>Before releasing the homework or colab on a server, please test that the code can run on the server without configuration issues. Configuration issues can be significant overhead burdens to BVI students. Any unexpected configuration errors can significantly hurt student’s confidence to succeed in the class.</p>
+<h3 id="always-adjust-needs-for-individual-students">
+    <a href="#always-adjust-needs-for-individual-students" class="anchor-heading" aria-labelledby="always-adjust-needs-for-individual-students"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Always adjust needs for individual students.
+</h3>
+<p>Note that each student might have different access needs, and preferences to navigate accessibility barriers. Please discuss with them throughout the course for feedback.</p>
        </main>
  <hr>
  <footer>
      <p><a href="#top" id="back-to-top">Back to top</a></p>
      <div class="d-flex mt-2">
          <p class="text-small text-grey-dk-000 mb-0">
-            <a href="https://github.com/just-the-docs/just-the-docs/tree/main/index.md" id="edit-this-page">Edit this page on GitHub</a>
+            <a href="https://github.com/rrrrrrockpang/accessibility-guide/tree/main/index.md" id="edit-this-page">Edit this page on GitHub</a>
          </p>
      </div>
  </footer>

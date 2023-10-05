@@ -10,7 +10,7 @@ nav_order: 4
 
 Make sure to add latex for complex math notation if you just include a screenshot/picture of the math. Some students with visual impairments are able to read latex representations. Consider the example about TF-IDF below: 
 
-<img src="{{site.baseurl}}/assets/images/PowerPoint/latex-math-1.png" alt='This is a screenshot of a powerpoint slide and the Alt Text Panel. On the left, there is a powerpoint slide with a few formulas about "Jaccard Similarity Metric", "Cosine Similarity Metric", and "Pearson Correlation Coefficient". Next to each formula are some explanation that would be animated to display. On the right, the selection pane displays the reading orders of these elements on the powerpoint slide' width="400px">
+<img src="{{site.baseurl}}/assets/images/PowerPoint/latex-math-1.png" alt='This is a screenshot of a powerpoint slide and the Alt Text Panel. On the left, there is a powerpoint slide with a few formulas about "Jaccard Similarity Metric", "Cosine Similarity Metric", and "Pearson Correlation Coefficient". Next to each formula are some explanation that would be animated to display. On the right, the selection pane displays the reading orders of these elements on the powerpoint slide' width="400">
 
 In the example, there are texts, inline math symbols (e.g., $f_{ij}$), math equation as one line (e.g., $TF_{ij} = \frac{f_{ij}}{max_{k}f_{kj}}$), arrows, and explanation. It involves many components and adding alt text to each single component can be challenging both for the authors and the readers. 
 

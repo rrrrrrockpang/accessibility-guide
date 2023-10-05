@@ -16,7 +16,7 @@ nav_order: 1
 
 ### 1. Right-click a picture and find **View Alt Text**.
 
-<img src="{{site.baseurl}}/assets/images/PowerPoint/alt-text-1.png" alt='the "View Alt Text" option highlighted context menu after right clicking a picture' width="400px">
+<img src="{{site.baseurl}}/assets/images/PowerPoint/alt-text-1.png" alt='the "View Alt Text" option highlighted context menu after right clicking a picture' width="400">
 
 
 ### 2. Write and edit the alt text.

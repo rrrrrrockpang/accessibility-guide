@@ -35,7 +35,7 @@ Below is an running example of converting a homework folder with LaTeX files int
 
 * Create LaTeX files for your homework. For example, this homework includes three questions. (`main.tex`, inside sub-folders include `association_rules.tex`, `lsh.tex`, etc). You can create your files as you would usually do with LaTeX.
 
-<img src="{{site.baseurl}}/assets/images/Homework/homework-1.png" alt='This is a screenshot of a directory on Google Drive. It includes 4 folders (association_rules, lsh, lsh_coding, spark) and 3 latex files (hw1_template.tex, main.tex, and policies.tex)' width="400px">
+<img src="{{site.baseurl}}/assets/images/Homework/homework-1.png" alt='This is a screenshot of a directory on Google Drive. It includes 4 folders (association_rules, lsh, lsh_coding, spark) and 3 latex files (hw1_template.tex, main.tex, and policies.tex)' width="400">
 
 * In your terminal, run the following command to compile the LaTeX files to MathJax using one simple command:
 

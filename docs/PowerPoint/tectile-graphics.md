@@ -10,7 +10,7 @@ nav_order: 6
 
 Sometimes alt text might just not be enough, you can reach out to Disability Resources for Students (or the equivalent office at your university or college campus) to print out the braille of some visualizations. For example, the image below is important to understand clustering. We could rely on alt text, but the tactile experience will augment the experience for blind students. 
 
-<img src="{{site.baseurl}}/assets/images/PowerPoint/tactile-01.png" alt='This is screenshot of a cluster view of some dots. There are dots of 4 colors (red, blue, yellow, and green). Dots of the same color are clustered together. This would be communicated more effectively with a braille artifact.' width="200px">
+<img src="{{site.baseurl}}/assets/images/PowerPoint/tactile-01.png" alt='This is screenshot of a cluster view of some dots. There are dots of 4 colors (red, blue, yellow, and green). Dots of the same color are clustered together. This would be communicated more effectively with a braille artifact.' width="200">
 
 To create the braille artifacts, you should:
 

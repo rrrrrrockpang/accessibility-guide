@@ -19,7 +19,7 @@ Next to the **Review → Check Accessibility** button, you can find the Selectio
 
 An alternative way to open this: **Home → Arrange → Selection Pane**
 
-<img src="{{site.baseurl}}/assets/images/PowerPoint/reading-order-2.png" alt='A screenshot of the "selection pane" option highlighted in the "arrange" dropdown' width="400px">
+<img src="{{site.baseurl}}/assets/images/PowerPoint/reading-order-2.png" alt='A screenshot of the "selection pane" option highlighted in the "arrange" dropdown' width="400">
 
 ### 2. Preview the reading order on the selection pane.
 

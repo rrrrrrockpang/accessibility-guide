@@ -21,7 +21,7 @@ Check the table of contents on your Colab left bar. Make sure each section has a
 
 A good guide to organize your Colab notebook is to divide it into separate Python scripts. Migrate the sections into separate Python scripts. The goal here is that screen reader users can work on the modular script for each section. 
 
-<img src="{{site.baseurl}}/assets/images/Notebook/colab-2.png" alt='This is a screenshot of a directory on github. It includes a folder (data), one markdown file (question.md), and 5 python files (intro.py, section_1.py, section_2.py, section_3.py, section_4.py).' width="400px">
+<img src="{{site.baseurl}}/assets/images/Notebook/colab-2.png" alt='This is a screenshot of a directory on github. It includes a folder (data), one markdown file (question.md), and 5 python files (intro.py, section_1.py, section_2.py, section_3.py, section_4.py).' width="400">
 
 {: .note }
 You might realize that we created a separate `data` folder in the github directory compared to `drive = GoogleDrive(gauth)` which is unique to Google Colab. Make sure that you share your data file (e.g., Google Drive) so that everyone can have access to it.
