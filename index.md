@@ -13,6 +13,8 @@ permalink: /
 This Accessibility Guide for Classes allows you to create class accessible materials for students. 
 {: .fs-6 .fw-300 }
 
+by Rock Yuren Pang, Kelly Mack, Venkatesh Potluri, Jennifer Mankoff, Tim Althoff
+
 Table of Contents
 {: .no_toc .text-delta }
 * [How to use this document](#how-to-use-this-document)
