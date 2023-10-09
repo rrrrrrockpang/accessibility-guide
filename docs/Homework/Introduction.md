@@ -10,6 +10,8 @@ permalink: /docs/homework
 
 Homework write-up typically takes the form of a PDF file. Students download the PDF file, fill in the answers, and submit it to the instructor. However, PDF files are not often accessible to screen reader users. One solution is to accessible [Markdown](https://daringfireball.net/projects/markdown/syntax#philosophy) files, which is a small text to HTML conversion language with the goal of making writing formatted text in a plain text editor easier.
 
+## 1. Use Markdown or LaTeX to write your homework
+
 Notably, Markdown is accessible to screen reader users and can be easily converted to PDF files too. 
 
 {: .important }
@@ -29,7 +31,7 @@ pandoc --toc --standalone --mathjax -f markdown -t html YOUR_HOMEWORK_FOLDER/*.m
 {: .note }
 You can follow the same process if you had used LaTeX to set up your homework. To do this, replace `markdown` with `latex`.
 
-### Example: 
+## 2. Example using LaTeX
 
 Below is an running example of converting a homework folder with LaTeX files into a HTML file:
 

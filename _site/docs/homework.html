@@ -165,6 +165,9 @@
     <a href="#how-to-make-homework-write-up-accessible" class="anchor-heading" aria-labelledby="how-to-make-homework-write-up-accessible"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to Make Homework Write-Up Accessible?
 </h1>
 <p>Homework write-up typically takes the form of a PDF file. Students download the PDF file, fill in the answers, and submit it to the instructor. However, PDF files are not often accessible to screen reader users. One solution is to accessible <a href="https://daringfireball.net/projects/markdown/syntax#philosophy">Markdown</a> files, which is a small text to HTML conversion language with the goal of making writing formatted text in a plain text editor easier.</p>
+<h2 id="1-use-markdown-or-latex-to-write-your-homework">
+    <a href="#1-use-markdown-or-latex-to-write-your-homework" class="anchor-heading" aria-labelledby="1-use-markdown-or-latex-to-write-your-homework"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Use Markdown or LaTeX to write your homework
+</h2>
 <p>Notably, Markdown is accessible to screen reader users and can be easily converted to PDF files too.</p>
 <p class="important">One convenient way is to <strong>maintain a central Markdown file</strong>, which can be converted to a PDF file using <code class="language-plaintext highlighter-rouge">pandoc</code>. The benefit is that screen readers work with PDF files, especially when combined with Mathjax for math notation:</p>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pandoc <span class="nt">--toc</span> <span class="nt">--standalone</span> <span class="nt">--mathjax</span> <span class="nt">-f</span> markdown <span class="nt">-t</span> html YOUR_HOMEWORK_FOLDER/<span class="k">*</span>.md <span class="nt">-o</span> YOUR_HTML_NAME.html <span class="nt">--metadata</span> <span class="nv">title</span><span class="o">=</span>“HOMEWORK_TITLE<span class="s2">"
@@ -178,9 +181,9 @@
  <li><code class="language-plaintext highlighter-rouge">YOUR_HTML_NAME.html</code> is the output html file. You can host this file on your course website.
 </ul>
 <p class="note">You can follow the same process if you had used LaTeX to set up your homework. To do this, replace <code class="language-plaintext highlighter-rouge">markdown</code> with <code class="language-plaintext highlighter-rouge">latex</code>.</p>
-<h3 id="example">
-    <a href="#example" class="anchor-heading" aria-labelledby="example"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Example:
-</h3>
+<h2 id="2-example-using-latex">
+    <a href="#2-example-using-latex" class="anchor-heading" aria-labelledby="2-example-using-latex"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Example using LaTeX
+</h2>
 <p>Below is an running example of converting a homework folder with LaTeX files into a HTML file:</p>
 <ul>
  <li>Create LaTeX files for your homework. For example, this homework includes three questions. (<code class="language-plaintext highlighter-rouge">main.tex</code>, inside sub-folders include <code class="language-plaintext highlighter-rouge">association_rules.tex</code>, <code class="language-plaintext highlighter-rouge">lsh.tex</code>, etc). You can create your files as you would usually do with LaTeX.
