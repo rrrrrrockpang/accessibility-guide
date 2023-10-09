@@ -11,13 +11,13 @@ permalink: /docs/notebook/instruction
 
 This section will show you how to add instructions and loggings to your computational notebooks.
 
-### 1. Add Instructions.
+## 1. Add Instructions.
 
 When we create many Python scripts, the data folder, and the log folder, we add more complexity to the folder structure. Have a .md file that tells students what these scripts are doing as well as clear expectations (i.e., the Colab coding questions) of the activity. You can find the question.md file in my [GitHub screenshot]({{site.baseurl}}/docs/notebook/organize#2-divide-the-colab-document-into-separate-python-scripts).
 
 We usually have the students submit the homework Colab assignment on canvas or Gradescope. It is much easier for BVI students to submit their answers on the .md file, instead of having to navigate multiple web platforms. 
 
-### 2. Add Loggings.
+## 2. Add Loggings.
 
 We also recommend adding loggings to your computational notebooks and the Python scripts. This will be helpful for students to debug their code. 
 
@@ -27,8 +27,7 @@ When you have a `print` statement, you should also `log` these statements to a l
 To log your output, please use the [logging package](https://docs.python.org/3/library/logging.html) and refer to this [blog post](https://towardsdatascience.com/stop-using-print-and-start-using-logging-a3f50bc8ab0). 
 
 
-### 3. Below is an example of logging in Python. 
-
+## 3. Below is an example of logging in Python. 
 
 {: .note }
 Note that we use `logger.info` to log the output. We include clear documentation of the question, housekeeping information, and step 1. The output is logged to `./log/section_1.log`. 

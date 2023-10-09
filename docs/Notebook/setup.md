@@ -11,7 +11,7 @@ permalink: /docs/notebook/setup
 
 This section will show you how to set up your server environment. We will use the CSE server as an example.
 
-### 1. Contact IT Support
+## 1. Contact IT Support
 
 Contact [support@cs.washington.edu](support@cs.washington.edu) to create a folder in `attu1` and add r/w permissions to the students based on their NetID. You can set up your homework/colab code there. The students can also work on them there. Don’t use UW cycle servers, you will run into permission issues.
 

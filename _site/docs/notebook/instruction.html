@@ -173,20 +173,20 @@
     <a href="#instructions-and-loggings" class="anchor-heading" aria-labelledby="instructions-and-loggings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Instructions and Loggings
 </h1>
 <p>This section will show you how to add instructions and loggings to your computational notebooks.</p>
-<h3 id="1-add-instructions">
+<h2 id="1-add-instructions">
     <a href="#1-add-instructions" class="anchor-heading" aria-labelledby="1-add-instructions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Add Instructions.
-</h3>
+</h2>
 <p>When we create many Python scripts, the data folder, and the log folder, we add more complexity to the folder structure. Have a .md file that tells students what these scripts are doing as well as clear expectations (i.e., the Colab coding questions) of the activity. You can find the question.md file in my <a href="/docs/notebook/organize#2-divide-the-colab-document-into-separate-python-scripts">GitHub screenshot</a>.</p>
 <p>We usually have the students submit the homework Colab assignment on canvas or Gradescope. It is much easier for BVI students to submit their answers on the .md file, instead of having to navigate multiple web platforms.</p>
-<h3 id="2-add-loggings">
+<h2 id="2-add-loggings">
     <a href="#2-add-loggings" class="anchor-heading" aria-labelledby="2-add-loggings"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Add Loggings.
-</h3>
+</h2>
 <p>We also recommend adding loggings to your computational notebooks and the Python scripts. This will be helpful for students to debug their code.</p>
 <p>When you have a <code class="language-plaintext highlighter-rouge">print</code> statement, you should also <code class="language-plaintext highlighter-rouge">log</code> these statements to a log folder. This is important for students with visual impairment to debug their code. When you print a lot of statements in the terminal, you cannot easily scroll up or copy-and-paste the terminal output for screen reader users.</p>
 <p class="note">To log your output, please use the <a href="https://docs.python.org/3/library/logging.html">logging package</a> and refer to this <a href="https://towardsdatascience.com/stop-using-print-and-start-using-logging-a3f50bc8ab0">blog post</a>.</p>
-<h3 id="3-below-is-an-example-of-logging-in-python">
+<h2 id="3-below-is-an-example-of-logging-in-python">
     <a href="#3-below-is-an-example-of-logging-in-python" class="anchor-heading" aria-labelledby="3-below-is-an-example-of-logging-in-python"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 3. Below is an example of logging in Python.
-</h3>
+</h2>
 <p class="note">Note that we use <code class="language-plaintext highlighter-rouge">logger.info</code> to log the output. We include clear documentation of the question, housekeeping information, and step 1. The output is logged to <code class="language-plaintext highlighter-rouge">./log/section_1.log</code>.</p>
 <p class="note">We also include an estimated running time for the key step. This is important for students with visual impairment to understand how long it takes to run the code, or they simply run into glitch in the server.</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Question 1: How many titles of each type are in the IMDB dataset?

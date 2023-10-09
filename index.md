@@ -15,12 +15,13 @@ This Accessibility Guide for Classes allows you to create class accessible mater
 
 by Rock Yuren Pang, Kelly Mack, Venkatesh Potluri, Jennifer Mankoff, Tim Althoff
 
+<hr>
 Table of Contents
 {: .no_toc .text-delta }
 * [How to use this document](#how-to-use-this-document)
 * [Common Barriers in CS Classrooms](#common-barriers-in-cs-classrooms)
 * [High-level Takeaway](#high-level-takeaway)
-
+<hr>
 
 This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. 
 We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently.
@@ -32,7 +33,7 @@ This guide was made possible during CSE 547 Fall 2022 at UW, where we collaborat
 ## How to use this document
 {: .fs-6 .fw-300 }
 
-To understand common accessibility barriers in class, you should read the [Common Accessibility Barriers in Classrooms]({{site.baseurl}}/docs/introduction/common_barriers), which outlines issues such as PowerPoint Slides, computational notebooks, homework assignments. Then, we recommend reviewing the specific sections while you are working on the corresponding election of your class.
+To understand common accessibility barriers in class, you should read the [Common Accessibility Barriers in Classrooms](#common-barriers-in-cs-classrooms), which outlines issues such as PowerPoint Slides, computational notebooks, homework assignments. Then, we recommend reviewing the specific sections while you are working on the corresponding election of your class.
 
 We also encourage you to show the students examples of your course materials, and specify the tools that may be used for homeworks before they take the class, to identify any remaining barriers early. 
 

@@ -11,7 +11,7 @@ nav_order: 3
 
 Decorative images are images that do not convey any information. For example, a background image that is purely decorative. In this case, you can mark the image as decorative so that screen readers will skip it. Otherwise, the screenreader will focus on and read out the element, confusing the screenreader users. This is especially problematic when the slides contain many of these elements.
 
-### 1. How to mark an image as decorative?
+## 1. How to mark an image as decorative?
 
 **View Alt Text …** → Go to the Alt Text panel → **Mark as decorative**
 
@@ -19,6 +19,6 @@ Decorative images are images that do not convey any information. For example, a 
 
 In the example above, the Pinterest logo above doesn’t convey important information, so let’s mark it decorative. 
 
-### 2. Footers are easily overlooked.
+## 2. Footers are easily overlooked.
 
 In the example above, we also  is the template footer which specifies the date, instructor, course title, and URL. They are not necessary information, so mark them as decorative after the first slide as well. Otherwise, they will waste time.

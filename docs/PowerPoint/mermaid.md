@@ -8,7 +8,7 @@ nav_order: 5
 # Represent Flowcharts and Graphs with Mermaid
 {: .fs-9 }
 
-Flowchat is a common chart in slides that represents a workflow or process. While you can certainly add detailed text description in your alt text, you can augment your flowchart with a [Mermaid](https://mermaid.js.org/) representation.
+Flowchart is a common chart in slides that represents a workflow or process. While you can certainly add detailed text description in your alt text, you can augment your flowchart with a [Mermaid](https://mermaid.js.org/) representation.
 
 Mermaid lets you create diagrams and visualizations using text and code. It is especially beneficial to augment flowcharts. BVI students will “compile” the Mermaid declarative grammar themselves. What we are doing here is transforming graph structure in a declarative format so that screenreaders can interact with them.
 Here is the URL to the [Mermaid documentation](http://mermaid.js.org/#/) and [the URL to an online playground](https://mermaid.live/edit#pako:eNpVj81qw0AMhF9F6NRC_AI-BGK7zSXQQHLz5iBsObuk-8Naphjb7551fEl1EjPfiNGEjW8Zc7xHChqulXKQ5lCXOppeLPU3yLL9fGQB6x2PMxQfRw-99iEYd__c-GKFoJxOK8Yg2rjHslnlK__jeIaqPlEQH27vzvXPz_BVm7NO5_87OnJKfdcd5R1lDUUoKb4Q3KHlaMm0qfq0KgpFs2WFeVpb7mj4FYXKLQmlQfxldA3mEgfe4RBaEq4MpaftJi5PNtJU8w). Let’s look at an example:
