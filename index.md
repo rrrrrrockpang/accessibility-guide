@@ -33,7 +33,7 @@ This guide was made possible during CSE 547 Fall 2022 at UW, where we collaborat
 ## How to use this document
 {: .fs-6 .fw-300 }
 
-To understand common accessibility barriers in class, you should read the [Common Accessibility Barriers in Classrooms](#common-barriers-in-cs-classrooms), which outlines issues such as PowerPoint Slides, computational notebooks, homework assignments. Then, we recommend reviewing the specific sections while you are working on the corresponding election of your class.
+To understand common accessibility barriers in class, you should read the [Common Accessibility Barriers in Classrooms](#common-barriers-in-cs-classrooms), which outlines issues such as PowerPoint Slides, computational notebooks, homework assignments. Then, consider reviewing the specific sections as you work on corresponding class components.
 
 We also encourage you to show the students examples of your course materials, and specify the tools that may be used for homeworks before they take the class, to identify any remaining barriers early. 
 
