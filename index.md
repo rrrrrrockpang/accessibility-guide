@@ -13,35 +13,57 @@ permalink: /
 This Accessibility Guide for Classes allows you to create class accessible materials for students. 
 {: .fs-6 .fw-300 }
 
-by Rock Yuren Pang, Kelly Mack, Venkatesh Potluri, Jennifer Mankoff, Tim Althoff
+<!-- by Rock Yuren Pang, Kelly Mack, Venkatesh Potluri, Jennifer Mankoff, Tim Althoff
+{: .fs-6 .fw-300 } -->
+<a href="https://homes.cs.washington.edu/~ypang2/" class="author-profile">
+    <img src="https://homes.cs.washington.edu/~ypang2/assets/img/rock.png" title="Rock Yuren Pang">
+    <span>Rock Yuren Pang</span>
+</a>
+<a href="https://venkateshpotluri.me/" class="author-profile">
+    <img src="https://venkateshpotluri.me/images/venkatesh_pic.png" title="Venkatesh Potluri">
+    <span>Venkatesh Potluri</span>
+</a>
+<a href="https://kmack3.github.io/" class="author-profile">
+    <img src="https://kmack3.github.io/images/avery.jpg" title="Kelly Avery Mack">
+    <span>Kelly Avery Mack</span>
+</a>
+<a href="https://www.cs.washington.edu/people/faculty/jmankoff" class="author-profile">
+    <img src="https://s3-us-west-2.amazonaws.com/www-cse-public/images/portraits/jmankoff_sm.jpg" title="Jennifer Mankoff">
+    <span>Jennifer Mankoff</span>
+</a>
+<a href="https://homes.cs.washington.edu/~althoff/" class="author-profile">
+    <img src="https://homes.cs.washington.edu/~althoff/images/tim_full_small.jpg" title="Tim Althoff">
+    <span>Tim Althoff</span>
+</a>
 
-<hr>
-Table of Contents
-{: .no_toc .text-delta }
-* [How to use this document](#how-to-use-this-document)
-* [Common Barriers in CS Classrooms](#common-barriers-in-cs-classrooms)
-* [High-level Takeaway](#high-level-takeaway)
-<hr>
 
-This document gives an overview for instructors and TAs to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. 
-We believe that increasing accessibility makes the course more approachable to all students, though it requires time and effort. This guide will help you make materials accessible more efficiently.
 
-**Intended Audience** Instructors and TAs who are teaching math or CS classes, or anyone interested in making accessible course materials including PowerPoint slides, Computational Notebooks, and Homework Write-ups.
+This document gives an overview for instructors and teaching assistants to improve course accessibility for students who are blind or visually impaired (BVI). Whether you don’t know where to start, or want to double-check whether any accessibility concerns may have been missed around your materials, we hope that this document will help you. 
+We believe that increasing accessibility makes the course more approachable to all students. This guide will help you do that efficiently.
 
-This guide was made possible during CSE 547 Fall 2022 at UW, where we collaborated with the Disability Resources for Students (DRS). We hope that this guide will be useful to other instructors and TAs who are interested in making their classes more accessible. We warmly welcome feedback and suggestions to improve this guide.
+**Intended Audience** Instructors and TAs who are teaching math or CS classes, or anyone interested in making accessible course materials including PowerPoint slides, computational notebooks, and homework write-ups.
+
+This guide was made possible at [CSE 547](https://courses.cs.washington.edu/courses/cse547/) at UW, where we collaborated with the [UW Center for Research and Education on Accessible Technology and Experiences (CREATE)](https://create.uw.edu/) and [UW Disability Resources for Students (DRS)](https://depts.washington.edu/uwdrs/). We also received valuable feedback from Esteban Safranchik, Ken Gu, and Katharina Reinecke. While many examples herein focus on computer science course content, we hope that this guide will benefit instructors across courses and disciplines. We warmly welcome feedback and suggestions to improve this guide.
+
+If you have comments, please reach out to [Rock Yuren Pang](ypang2@cs.washington.edu). We also welcome additional feedback to improve this document.
 
 <hr>
 
 ## How to use this document
 {: .fs-6 .fw-300 }
 
-To understand common accessibility barriers in class, you should read the [Common Accessibility Barriers in Classrooms](#common-barriers-in-cs-classrooms), which outlines issues such as PowerPoint Slides, computational notebooks, and homework assignments. Then, consider reviewing the specific sections as you work on corresponding class components.
+* **Before designing or teaching your class**, we recommend reading this page including the [common accessibility barriers](#common-barriers-in-cs-classrooms) and [key takeaways](#high-level-takeaway) from the authors' experience.  
 
-We also encourage you to show the students examples of your course materials and specify the tools that may be used for homework before they take the class, to identify any remaining barriers early. 
+* **While creating the course materials**, we recommend referring to specific sections including PowerPoint slides, computational notebooks, and homework assignments. For example, if you are creating PowerPoint slides, you can refer to the [PowerPoint Accessibility](/docs/PowerPoint) section.
 
-This document focuses on students with visual impairments. There are many students with a range of disabilities, with a variety of access needs who may require accommodations to succeed in higher education courses. We highly recommend contacting Disability Resources for Students (DRS) at the earliest possible based on your students’ access needs. Note that many campuses’ disability offices are extremely overworked, therefore, we also suggest you give this document a read before reaching out for further questions.
+* **After making the materials accessible**, we also encourage you to show the students examples of your course materials and specify the tools that may be used for homework before they take the class, to identify any remaining barriers early. 
 
-In creating this document, we consulted with Disability Resources for Students and received valuable feedback from Esteban Safranchik, Ken Gu, and Katharina Reinecke. If you have comments, please reach out to Rock Yuren Pang and Tim Althoff (ypang2@cs.washington.edu and althoff@cs.washington.edu). We also welcome additional feedback to improve this document.
+{: .note}
+This document focuses on students with visual impairments. There are many students with a range of disabilities, with a variety of access needs who may require accommodations to succeed in higher education courses. We highly recommend contacting UW DRS or the disability resource office at your own institutions at the earliest possible based on your students’ access needs. 
+
+{: .note}
+Note that many campuses’ disability offices are extremely overworked, therefore, we also suggest you give this document a read before reaching out for further questions.
+
 
 <hr>
 
@@ -76,22 +98,12 @@ Now that you have a high-level understanding of where you may encounter accessib
 
 Here are high-level recommendations on how to proceed in a class to improve accessibility for BLV students.
 
-### Communicate before the quarter. 
+* **Communicate before the quarter.** To accommodate the needs of different students, we recommend communicating with the students before the quarter. Ask them if they need additional accommodations like accessible PowerPoint and coding/homework setup. 
 
-To accommodate the needs of different students, we recommend communicating with the students before the quarter. Ask them if they need additional accommodations like accessible PowerPoint and coding/homework setup. 
+* **Communicate with DRS.** You should communicate with the DRS if this document doesn’t cover the specific needs. Also, it’s helpful to print out necessary braille materials at the beginning of the quarter. The DRS is helpful and the turnaround is usually within 2 weeks. 
 
-### Communicate with DRS. 
+* **Make the accessible slides publicly.** Make the accessible slides publicly available on the course website so that all students have the chance to preview the slides if they would like to. Share the accessible materials (e.g., braille) with the students one week before the class session.
 
-You should communicate with the DRS if this document doesn’t cover the specific needs. Also, it’s helpful to print out necessary braille materials at the beginning of the quarter. The DRS is helpful and the turnaround is usually within 2 weeks. 
+* **Test the server before launching homework or Colab activities.** Before releasing the homework or Colab on a server, please test that the code can run on the server without configuration issues. Configuration issues can be significant overhead burdens to BVI students. Any unexpected configuration errors can significantly hurt student’s confidence to succeed in the class. 
 
-### Make the accessible slides publicly 
-
-Make the accessible slides publicly available on the course website so that all students have the chance to preview the slides if they would like to. Share the accessible materials (e.g., braille) with the students 1 week before the class session.
-
-### Test the server before launching homework or Colab activities. 
-
-Before releasing the homework or Colab on a server, please test that the code can run on the server without configuration issues. Configuration issues can be significant overhead burdens to BVI students. Any unexpected configuration errors can significantly hurt student’s confidence to succeed in the class. 
-
-### Always adjust the needs of individual students. 
-
-Note that each student might have different access needs, and preferences to navigate accessibility barriers. Please discuss with them throughout the course for feedback.
+* **Always adjust the needs of individual students.** Note that each student might have different access needs, and preferences to navigate accessibility barriers. Please discuss with them throughout the course for feedback.

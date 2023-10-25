@@ -8,11 +8,11 @@ permalink: /docs/homework
 # How to Make Homework Write-Up Accessible?
 {: .fs-9 }
 
-Homework write-up typically takes the form of a PDF file. Students download the PDF file, fill in the answers, and submit it to the instructor. However, PDF files are not often accessible to screen reader users. One solution is to accessible [Markdown](https://daringfireball.net/projects/markdown/syntax#philosophy) files, which is a small text to HTML conversion language with the goal of making writing formatted text in a plain text editor easier.
+Homework write-up typically takes the form of a PDF file. Students download the PDF file, fill in the answers, and submit it to the instructor. However, PDF files are not often accessible to screen reader users. One solution is to accessible [Markdown](https://daringfireball.net/projects/markdown/syntax#philosophy) files, which is a small text-to-HTML conversion language to enable formatting text in a plain text editor.
 
 ## 1. Use Markdown or LaTeX to write your homework
 
-Notably, Markdown is accessible to screen reader users and can be easily converted to PDF files too. 
+Notably, Markdown is accessible to screen reader users and can be easily converted to PDF files, too. 
 
 {: .important }
 One convenient way is to **maintain a central Markdown file**, which can be converted to a PDF file using `pandoc`. The benefit is that screen readers work with PDF files, especially when combined with Mathjax for math notation:
@@ -33,9 +33,9 @@ You can follow the same process if you had used LaTeX to set up your homework. T
 
 ## 2. Example using LaTeX
 
-Below is an running example of converting a homework folder with LaTeX files into a HTML file:
+Below is a running example of converting a homework folder with LaTeX files into an HTML file:
 
-* Create LaTeX files for your homework. For example, this homework includes three questions. (`main.tex`, inside sub-folders include `association_rules.tex`, `lsh.tex`, etc). You can create your files as you would usually do with LaTeX.
+* Create LaTeX files for your homework. For example, this homework includes three questions. (`main.tex`, inside sub-folders include `association_rules.tex`, `lsh.tex`, etc.). You can create your files as you would usually do with LaTeX.
 
 <img src="{{site.baseurl}}/assets/images/Homework/homework-1.png" alt='This is a screenshot of a directory on Google Drive. It includes 4 folders (association_rules, lsh, lsh_coding, spark) and 3 latex files (hw1_template.tex, main.tex, and policies.tex)' width="400">
 
@@ -47,6 +47,6 @@ pandoc --toc --standalone --mathjax -f latex -t html YOUR_SOURCE_LATEX_FILE.tex 
 
 In the command, replace the `YOUR_HOMEWORK_FOLDER`, `YOUR_HTML_NAME.html`, `HOMEWORK_TITLE` with your own setup. 
 
-* Open the `YOUR_HTML_NAME.html`. Move the HTML file to your course server. That’s it! You can find an example of the generated html file at this [link](https://htmlpreview.github.io/?https://github.com/rrrrrrockpang/CSE547-Accessible/blob/main/homework/homework-1/hw1.html)
+* Open the `YOUR_HTML_NAME.html`. Move the HTML file to your course server. That’s it! You can find an example of the generated HTML file at this [link](https://htmlpreview.github.io/?https://github.com/rrrrrrockpang/CSE547-Accessible/blob/main/homework/homework-1/hw1.html)
 
-Overall, this process just generates an html file based on the Markdown or LaTeX files that you might have already. We found the generated HTML to be of acceptable quality.
+Overall, this process generates an HTML file based on the Markdown or LaTeX files that you might already have. We found the generated HTML to be of acceptable quality.

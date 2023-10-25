@@ -9,7 +9,7 @@ nav_order: 4
 # Group Images on PowerPoint
 {: .fs-9 }
 
-For complex diagrams that have many sub-images, if you don’t group the pictures, the screen reader users will likely (and unnecessarily) be overwhelmed and confused. This page includes two approaches to group images on PowerPoint.
+For complex diagrams with many sub-images, if you don't group the pictures, the screen reader users will likely (and unnecessarily) be overwhelmed and confused. This page includes two approaches to group images on PowerPoint.
 
 1. [Why do we need to group images?](#why-do-we-need-to-group-images)
 2. [Approach 1: Group the images on PowerPoint](#approach-1-group-the-images-on-powerpoint)
@@ -17,15 +17,15 @@ For complex diagrams that have many sub-images, if you don’t group the picture
 
 ## Why do we need to group images?
 
-Let’s walk through the example below about Singular Value Decomposition (SVD). As you can see it’s an SVD equation $A = U \Sigma V^T$, but there are just so many unorganized pointers such as $m$ rows, $n$ columns, approximation sign ($\approx$), $r$ columns/rows, etc. You can also see the messiness on the Selection Pane. (Please look at the reading order section, it is important!). Now, there are two ways to resolve this issue.
+Let's walk through the example below about Singular Value Decomposition (SVD). As you can see it's an SVD equation $A = U \Sigma V^T$, but there are just so many unorganized pointers such as $m$ rows, $n$ columns, approximation sign ($\approx$), $r$ columns/rows, etc. You can also see the messiness on the Selection Pane. (Please look at the reading order section; it is important!) Now, there are two ways to resolve this issue.
 
-<img src="{{site.baseurl}}/assets/images/PowerPoint/alt-text-6.png" alt='This is a screenshot of a powerpoint slide and the Selection Pane. On the left, there is a powerpoint slide titled "Reducing Matrix Dimension", followed by text description, and then followed by math equation A \approx U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns number are denoted in various numbers. on the right is the "Selection Pane" pane. In the pane, 11 textboxes of the components from the left slide are selected. '>
+<img src="{{site.baseurl}}/assets/images/PowerPoint/alt-text-6.png" alt='This is a screenshot of a PowerPoint slide and the Selection Pane. On the left, there is a PowerPoint slide titled "Reducing Matrix Dimension", followed by text description, and then followed by math equation A \approx U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns numbers are denoted in various numbers. on the right is the "Selection Pane" pane. In the pane, 11 textboxes of the components from the left slide are selected. '>
 
 ## Approach 1: Group the images on PowerPoint.
 
 ### 1. Select each of the pictures you want to group. 
 
-Right-click on the selected images/texts, etc → **View Alt Text …** → **Mark as decorative**. Doing so will make the screen reader skip focusing on the individual images, and just focus on the group. We do this because we don’t want the screen reader to go to the individual components again. We just want to read the grouped component as a whole.
+Right-click on the selected images/texts, etc → **View Alt Text …** → **Mark as decorative**. By marking them as decorative, the screen reader will streamline its focus onto the entire group rather than each individual element. We want the screen reader to read the grouped content as a cohesive unit. This prevents potential confusion or redundancies, leading to a smoother user experience. 
 
 <img src="{{site.baseurl}}/assets/images/PowerPoint/alt-text-7.png" alt='This is a screenshot of a powerpoint slide and the Alt Text Panel. on the left, there is a powerpoint slide titled "Reducing Matrix Dimension", followed by text description, and then followed by math equation A \appro U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns number are denoted in various numbers. On the right is the "Alt Text" pane. In the pane, "Mark as decorative" is selected.'>
 
@@ -52,9 +52,9 @@ Select the pictures you want to group → **Save as Picture …**
 
 ### 2. Drag the saved picture from your folder to this slide. 
 
-If you want the saved picture to go back to where it was, don’t delete the original components yet. You can overlay the saved picture with the original components. When they overlap, **cut** the saved picture → select the original components → delete → paste the saved picture. You are all set now. 
+If you want to revert the saved picture to its original position, don't delete the original components. You can overlay the saved picture with the original components. When they overlap, **cut** the saved picture → select the original components → delete → paste the saved picture. You are all set now. 
 
 ### 3. Add alt text to the picture.
 
-You can just add alt text to the new component as an image!
+You can add alt text to the new component as an image!
 

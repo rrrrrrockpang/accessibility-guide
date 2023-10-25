@@ -36,7 +36,7 @@ permalink: /docs/resources
 2. [Designing for inclusive learning](https://teaching.washington.edu/inclusive-teaching/universal-design-for-learning/)
 
 ### More Details of the Tools
-1. [MathJax](https://www.mathjax.org/) to make html accessible
+1. [MathJax](https://www.mathjax.org/) to make HTML accessible
 2. How to [sonify a graph](https://athersharif.me/documents/chi-2022-voxlens.pdf)
 3. [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 4. [Table to markdown](https://www.tablesgenerator.com/markdown_tables)

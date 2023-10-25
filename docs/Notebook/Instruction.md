@@ -13,15 +13,15 @@ This section will show you how to add instructions and loggings to your computat
 
 ## 1. Add Instructions.
 
-When we create many Python scripts, the data folder, and the log folder, we add more complexity to the folder structure. Have a .md file that tells students what these scripts are doing as well as clear expectations (i.e., the Colab coding questions) of the activity. You can find the question.md file in my [GitHub screenshot]({{site.baseurl}}/docs/notebook/organize#2-divide-the-colab-document-into-separate-python-scripts).
+We add more complexity to the folder structure when we create many Python scripts, the data folder, and the log folder. Have a Markdown file (`.md`) that tells students what these scripts include as well as clear expectations (i.e., the Colab coding questions) of the activity. You can find the Markdown file `question.md` in my [GitHub screenshot]({{site.baseurl}}/docs/notebook/organize#2-divide-the-colab-document-into-separate-python-scripts).
 
-We usually have the students submit the homework Colab assignment on canvas or Gradescope. It is much easier for BVI students to submit their answers on the .md file, instead of having to navigate multiple web platforms. 
+We usually have the students submit the homework Colab assignment on [Canvas](https://canvas.uw.edu/) or [Gradescope](https://www.gradescope.com/). It is much easier for BVI students to submit their answers on the Markdown file, instead of having to navigate multiple web platforms. 
 
 ## 2. Add Loggings.
 
-We also recommend adding loggings to your computational notebooks and the Python scripts. This will be helpful for students to debug their code. 
+We also recommend adding loggings to your computational notebooks and the Python scripts. Loggings will be helpful for students to debug their code. 
 
-When you have a `print` statement, you should also `log` these statements to a log folder. This is important for students with visual impairment to debug their code. When you print a lot of statements in the terminal, you cannot easily scroll up or copy-and-paste the terminal output for screen reader users. 
+When you have a `print` statement, piping the logging output to a designated log folder is equally important. This practice provides a more flexible way to debug the code in the output file instead of the terminal. Scrolling up or copying-and-pasting the terminal output is not easy for screen reader users. 
 
 {: .note }
 To log your output, please use the [logging package](https://docs.python.org/3/library/logging.html) and refer to this [blog post](https://towardsdatascience.com/stop-using-print-and-start-using-logging-a3f50bc8ab0). 

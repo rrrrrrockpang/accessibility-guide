@@ -128,7 +128,7 @@
     </button>
  </div>
  <nav aria-label="Main" id="site-nav" class="site-nav">
-     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in PowerPoint Accessibility category" aria-pressed="false">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Introduction</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in PowerPoint Accessibility category" aria-pressed="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
     </button><a href="/docs/PowerPoint" class="nav-list-link">PowerPoint Accessibility</a><ul class="nav-list"><li class="nav-list-item"><a href="/docs/PowerPoint/check-accessibility/" class="nav-list-link">Check Accessibility</a><li class="nav-list-item"><a href="/docs/PowerPoint/check-reading/" class="nav-list-link">Check Reading Order</a><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Add Alternative Text category" aria-pressed="false">
             <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
@@ -166,7 +166,7 @@
            <h1 class="fs-9" id="group-images-on-powerpoint">
     <a href="#group-images-on-powerpoint" class="anchor-heading" aria-labelledby="group-images-on-powerpoint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Group Images on PowerPoint
 </h1>
-<p>For complex diagrams that have many sub-images, if you don’t group the pictures, the screen reader users will likely (and unnecessarily) be overwhelmed and confused. This page includes two approaches to group images on PowerPoint.</p>
+<p>For complex diagrams with many sub-images, if you don’t group the pictures, the screen reader users will likely (and unnecessarily) be overwhelmed and confused. This page includes two approaches to group images on PowerPoint.</p>
 <ol>
  <li><a href="#why-do-we-need-to-group-images">Why do we need to group images?</a>
  <li><a href="#approach-1-group-the-images-on-powerpoint">Approach 1: Group the images on PowerPoint</a>
@@ -175,15 +175,15 @@
 <h2 id="why-do-we-need-to-group-images">
     <a href="#why-do-we-need-to-group-images" class="anchor-heading" aria-labelledby="why-do-we-need-to-group-images"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Why do we need to group images?
 </h2>
-<p>Let’s walk through the example below about Singular Value Decomposition (SVD). As you can see it’s an SVD equation $A = U \Sigma V^T$, but there are just so many unorganized pointers such as $m$ rows, $n$ columns, approximation sign ($\approx$), $r$ columns/rows, etc. You can also see the messiness on the Selection Pane. (Please look at the reading order section, it is important!). Now, there are two ways to resolve this issue.</p>
-<p><img src="/assets/images/PowerPoint/alt-text-6.png" alt="This is a screenshot of a powerpoint slide and the Selection Pane. On the left, there is a powerpoint slide titled &quot;Reducing Matrix Dimension&quot;, followed by text description, and then followed by math equation A \approx U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns number are denoted in various numbers. on the right is the &quot;Selection Pane&quot; pane. In the pane, 11 textboxes of the components from the left slide are selected. " /></p>
+<p>Let’s walk through the example below about Singular Value Decomposition (SVD). As you can see it’s an SVD equation $A = U \Sigma V^T$, but there are just so many unorganized pointers such as $m$ rows, $n$ columns, approximation sign ($\approx$), $r$ columns/rows, etc. You can also see the messiness on the Selection Pane. (Please look at the reading order section; it is important!) Now, there are two ways to resolve this issue.</p>
+<p><img src="/assets/images/PowerPoint/alt-text-6.png" alt="This is a screenshot of a PowerPoint slide and the Selection Pane. On the left, there is a PowerPoint slide titled &quot;Reducing Matrix Dimension&quot;, followed by text description, and then followed by math equation A \approx U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns numbers are denoted in various numbers. on the right is the &quot;Selection Pane&quot; pane. In the pane, 11 textboxes of the components from the left slide are selected. " /></p>
 <h2 id="approach-1-group-the-images-on-powerpoint">
     <a href="#approach-1-group-the-images-on-powerpoint" class="anchor-heading" aria-labelledby="approach-1-group-the-images-on-powerpoint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Approach 1: Group the images on PowerPoint.
 </h2>
 <h3 id="1-select-each-of-the-pictures-you-want-to-group">
     <a href="#1-select-each-of-the-pictures-you-want-to-group" class="anchor-heading" aria-labelledby="1-select-each-of-the-pictures-you-want-to-group"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Select each of the pictures you want to group.
 </h3>
-<p>Right-click on the selected images/texts, etc → <strong>View Alt Text …</strong> → <strong>Mark as decorative</strong>. Doing so will make the screen reader skip focusing on the individual images, and just focus on the group. We do this because we don’t want the screen reader to go to the individual components again. We just want to read the grouped component as a whole.</p>
+<p>Right-click on the selected images/texts, etc → <strong>View Alt Text …</strong> → <strong>Mark as decorative</strong>. By marking them as decorative, the screen reader will streamline its focus onto the entire group rather than each individual element. We want the screen reader to read the grouped content as a cohesive unit. This prevents potential confusion or redundancies, leading to a smoother user experience.</p>
 <p><img src="/assets/images/PowerPoint/alt-text-7.png" alt="This is a screenshot of a powerpoint slide and the Alt Text Panel. on the left, there is a powerpoint slide titled &quot;Reducing Matrix Dimension&quot;, followed by text description, and then followed by math equation A \appro U \Sigma V^T. All three components are laid out in matrix format to make it easy to comprehend. The rows and columns number are denoted in various numbers. On the right is the &quot;Alt Text&quot; pane. In the pane, &quot;Mark as decorative&quot; is selected." /></p>
 <h3 id="2-group-the-components">
     <a href="#2-group-the-components" class="anchor-heading" aria-labelledby="2-group-the-components"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Group the components.
@@ -206,11 +206,11 @@
 <h3 id="2-drag-the-saved-picture-from-your-folder-to-this-slide">
     <a href="#2-drag-the-saved-picture-from-your-folder-to-this-slide" class="anchor-heading" aria-labelledby="2-drag-the-saved-picture-from-your-folder-to-this-slide"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Drag the saved picture from your folder to this slide.
 </h3>
-<p>If you want the saved picture to go back to where it was, don’t delete the original components yet. You can overlay the saved picture with the original components. When they overlap, <strong>cut</strong> the saved picture → select the original components → delete → paste the saved picture. You are all set now.</p>
+<p>If you want to revert the saved picture to its original position, don’t delete the original components. You can overlay the saved picture with the original components. When they overlap, <strong>cut</strong> the saved picture → select the original components → delete → paste the saved picture. You are all set now.</p>
 <h3 id="3-add-alt-text-to-the-picture">
     <a href="#3-add-alt-text-to-the-picture" class="anchor-heading" aria-labelledby="3-add-alt-text-to-the-picture"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 3. Add alt text to the picture.
 </h3>
-<p>You can just add alt text to the new component as an image!</p>
+<p>You can add alt text to the new component as an image!</p>
        </main>
  <hr>
  <footer>
