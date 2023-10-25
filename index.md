@@ -45,7 +45,7 @@ We believe that increasing accessibility makes the course more approachable to a
 
 This guide was made possible at [CSE 547](https://courses.cs.washington.edu/courses/cse547/) at UW, where we collaborated with the [UW Center for Research and Education on Accessible Technology and Experiences (CREATE)](https://create.uw.edu/) and [UW Disability Resources for Students (DRS)](https://depts.washington.edu/uwdrs/). We also received valuable feedback from Esteban Safranchik, Ken Gu, and Katharina Reinecke. While many examples herein focus on computer science course content, we hope that this guide will benefit instructors across courses and disciplines. We warmly welcome feedback and suggestions to improve this guide.
 
-If you have comments, please reach out to [Rock Yuren Pang](ypang2@cs.washington.edu). We also welcome additional feedback to improve this document.
+If you have comments, please reach out to ✉️ [Rock Yuren Pang](mailto:ypang2@cs.washington.edu). We also welcome additional feedback to improve this document.
 
 <hr>
 
