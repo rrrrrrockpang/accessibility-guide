@@ -76,12 +76,12 @@ Imagine a blind student trying to understand matrix multiplication in a highly a
 A key takeaway to making PowerPoint slides is not to completely rely on visual cues. You should always consider adding alt text to images, animations, and math notations. If visual cues are important, you can consider augmenting the experience with tactile graphics (braille).
 
 ### Computational notebook software, such as Google Colab 
-makes it easier to collaborate and share code. However, screen reader users cannot access and work with these notebooks, as of this writing. 
+Computational notebooks make collaborating and sharing code easy in a computer science class. However, screen reader users cannot access and work with these notebooks, as of this writing. 
 
 To make computational notebooks more accessible, you can easily create separate Python files for each section of your notebook. Additionally, blind users may not be able to create visualizations as homework deliverables. Instead, you can consider having them present the information in an alternate format to test the correctness (e.g., a data table).
  
-### Document assignments 
-PDFs are often inaccessible to people using screen readers by default. We recommend releasing the Markdown and LaTeX files whenever possible. It is easy to use `pandoc` to convert a Markdown/LaTeX file with math notations to an accessible HTML file supported by MathJax, which works with screen readers (see section 4). 
+### Homework assignments 
+Students often read and complete homework assignments using the PDF format. PDFs are often inaccessible to people using screen readers by default. We recommend releasing the Markdown and LaTeX files whenever possible. It is easy to use `pandoc` to convert a Markdown/LaTeX file with math notations to an accessible HTML file supported by MathJax, which works with screen readers (see section 4). 
 
 ### In-class activities 
 In-class discussions are often accessible by default if they don’t heavily rely on a visual component. However, if your in-class activity needs to focus on a visual element (e.g., discussing the drawbacks between k-means and hierarchical clustering), it helps if you can provide tactile graphics. The Disability Resources for Students can help create these from images and slides.
