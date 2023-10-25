@@ -54,7 +54,7 @@ If you have comments, please reach out to ✉️ [Rock Yuren Pang](mailto:ypang2
 
 * **Before designing or teaching your class**, we recommend reading this page including the [common accessibility barriers](#common-barriers-in-cs-classrooms) and [key takeaways](#high-level-takeaway) from the authors' experience.  
 
-* **While creating the course materials**, we recommend referring to specific sections including PowerPoint slides, computational notebooks, and homework assignments. For example, if you are creating PowerPoint slides, you can refer to the [PowerPoint Accessibility](/docs/PowerPoint) section.
+* **While creating the course materials**, we recommend referring to specific sections including PowerPoint slides, computational notebooks, and homework assignments. For example, if you are creating PowerPoint slides, you can refer to the [PowerPoint Accessibility]({{ site.url }}/docs/PowerPoint) section.
 
 * **After making the materials accessible**, we also encourage you to show the students examples of your course materials and specify the tools that may be used for homework before they take the class, to identify any remaining barriers early. 
 
