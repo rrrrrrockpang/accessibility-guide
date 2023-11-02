@@ -25,7 +25,7 @@ Check Accessibility is a feature that can flag several potential issues in your 
 
 Selection/Reading Order impacts how a screen reader user reads your slide when reviewing it. Correct selection/reading order ensures that the screen reader will follow your presentation order. Imagine that’s the order that you’re going to present your slides. If inaccurate, the reading order will confuse the screen readers. For example, for complex slides with multiple text boxes, make sure the conclusion doesn’t appear first or the caption doesn’t follow the wrong graphic. 
 
-## Add Altnative Text (alt text)
+## Add Alternative Text (alt text)
 
 Missing alt text visuals is another common barrier. Make sure you add alt text to any important graphics and animations. 
 
